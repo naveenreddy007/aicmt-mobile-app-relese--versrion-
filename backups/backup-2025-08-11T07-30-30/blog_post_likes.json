@@ -1,0 +1,13 @@
+{
+  "metadata": {
+    "table": "blog_post_likes",
+    "timestamp": "2025-08-11T07-30-30",
+    "recordCount": 0,
+    "backupDate": "2025-08-11T07:30:34.589Z",
+    "schema": {
+      "table_name": "blog_post_likes",
+      "columns": []
+    }
+  },
+  "data": []
+}

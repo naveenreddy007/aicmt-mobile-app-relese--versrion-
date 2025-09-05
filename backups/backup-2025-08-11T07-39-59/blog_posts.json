@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "table": "blog_posts",
+    "timestamp": "2025-08-11T07-39-59",
+    "recordCount": 1,
+    "backupDate": "2025-08-11T07:40:04.944Z",
+    "schema": {
+      "table_name": "blog_posts",
+      "columns": []
+    }
+  },
+  "data": [
+    {
+      "id": "a5d69173-f7cf-4c02-a694-7c19b7a5cc33",
+      "title": "The Future of Biodegradable Plastics in Packaging",
+      "slug": "future-biodegradable-plastics-packaging",
+      "excerpt": "Excerpt here...",
+      "content": "# Content here...",
+      "featured_image_url": "/images/blog/sustainable-packaging-trends.png",
+      "category_id": null,
+      "author_id": null,
+      "status": "published",
+      "published_at": "2025-07-10T13:37:31.719593+00:00",
+      "meta_title": "Meta title here",
+      "meta_description": "Meta description here",
+      "reading_time": 5,
+      "views_count": 156,
+      "likes_count": 0,
+      "comments_count": 0,
+      "featured": false,
+      "created_at": "2025-07-12T13:37:31.719593+00:00",
+      "updated_at": "2025-07-12T13:37:31.719593+00:00"
+    }
+  ]
+}

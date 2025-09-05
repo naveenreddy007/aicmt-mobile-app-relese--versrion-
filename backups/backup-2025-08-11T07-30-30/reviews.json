@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "table": "reviews",
+    "timestamp": "2025-08-11T07-30-30",
+    "recordCount": 2,
+    "backupDate": "2025-08-11T07:30:44.934Z",
+    "schema": {
+      "table_name": "reviews",
+      "columns": []
+    }
+  },
+  "data": [
+    {
+      "id": "9d0097d7-a6a7-4636-843c-214848c08954",
+      "product_id": "5a79f63b-091e-4a02-9cd8-2688eb4a5bc9",
+      "user_id": "f6443e86-72f6-408c-82d7-e187a2d59cc6",
+      "name": "naveen",
+      "email": "uscl.bilvalabs@gmail.com",
+      "rating": 5,
+      "title": "cv ",
+      "content": "dc x",
+      "status": "approved",
+      "is_verified_purchase": false,
+      "helpful_count": 0,
+      "created_at": "2025-07-08T14:35:19.636988+00:00",
+      "updated_at": "2025-07-08T15:09:02.235777+00:00"
+    },
+    {
+      "id": "fb9ec03e-9899-46ea-881e-b917bd9637ee",
+      "product_id": "5a79f63b-091e-4a02-9cd8-2688eb4a5bc9",
+      "user_id": "f6443e86-72f6-408c-82d7-e187a2d59cc6",
+      "name": "naveen",
+      "email": "uscl.bilvalabs@gmail.com",
+      "rating": 5,
+      "title": "iuhjgyhftgr",
+      "content": "uyjgfhdgs",
+      "status": "rejected",
+      "is_verified_purchase": false,
+      "helpful_count": 0,
+      "created_at": "2025-07-08T14:34:12.209602+00:00",
+      "updated_at": "2025-07-08T15:09:06.443826+00:00"
+    }
+  ]
+}

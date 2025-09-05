@@ -1,0 +1,4 @@
+code,name,category,price,description,features,specifications,is_active
+BIO-ABS-01,Biodegradable ABS Filament,Filaments,29.99,"High-quality, eco-friendly ABS filament for 3D printing.","{""color"": ""Natural White"", ""diameter"": ""1.75mm""}","{""tensile_strength"": ""40 MPa"", ""print_temp"": ""220-250°C""}",true
+BIO-PLA-01,Eco-Friendly PLA+,Filaments,24.99,"Premium PLA+ filament made from renewable resources.","{""color"": ""Forest Green"", ""diameter"": ""1.75mm""}","{""tensile_strength"": ""60 MPa"", ""print_temp"": ""190-220°C""}",true
+BIO-PETG-01,Recycled PETG,Filaments,32.50,"Durable and strong PETG made from recycled materials.","{""color"": ""Transparent Blue"", ""diameter"": ""1.75mm""}","{""tensile_strength"": ""50 MPa"", ""print_temp"": ""230-250°C""}",false

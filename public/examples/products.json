@@ -1,0 +1,34 @@
+[
+  {
+    "code": "BIO-ABS-02",
+    "name": "Biodegradable ABS Filament - Black",
+    "category": "Filaments",
+    "price": "29.99",
+    "description": "High-quality, eco-friendly ABS filament for 3D printing in black.",
+    "features": {
+      "color": "Jet Black",
+      "diameter": "1.75mm"
+    },
+    "specifications": {
+      "tensile_strength": "40 MPa",
+      "print_temp": "220-250°C"
+    },
+    "is_active": true
+  },
+  {
+    "code": "BIO-PLA-02",
+    "name": "Eco-Friendly PLA+ - Red",
+    "category": "Filaments",
+    "price": "24.99",
+    "description": "Premium PLA+ filament made from renewable resources in red.",
+    "features": {
+      "color": "Signal Red",
+      "diameter": "1.75mm"
+    },
+    "specifications": {
+      "tensile_strength": "60 MPa",
+      "print_temp": "190-220°C"
+    },
+    "is_active": true
+  }
+]

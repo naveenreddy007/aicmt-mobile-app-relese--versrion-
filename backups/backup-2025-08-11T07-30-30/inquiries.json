@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "table": "inquiries",
+    "timestamp": "2025-08-11T07-30-30",
+    "recordCount": 2,
+    "backupDate": "2025-08-11T07:30:38.551Z",
+    "schema": {
+      "table_name": "inquiries",
+      "columns": []
+    }
+  },
+  "data": [
+    {
+      "id": "911aec76-41e6-4be8-af59-10e9f125986f",
+      "name": "haritha",
+      "email": "uscl.bilvalabs@gmail.com",
+      "company": "yy",
+      "phone": null,
+      "message": "iouytr",
+      "product_interest": "quote",
+      "status": "new",
+      "priority": "medium",
+      "assigned_to": null,
+      "notes": null,
+      "created_at": "2025-05-15T17:39:52.330799+00:00",
+      "updated_at": "2025-05-15T17:39:52.330799+00:00"
+    },
+    {
+      "id": "0eae0053-cf4d-4161-8f82-f74c87805934",
+      "name": "haritha",
+      "email": "admin@bilvalabs.com",
+      "company": "yy",
+      "phone": "2343",
+      "message": "qrwegdbc",
+      "product_interest": "sample",
+      "status": "new",
+      "priority": "medium",
+      "assigned_to": null,
+      "notes": null,
+      "created_at": "2025-05-15T17:43:52.822662+00:00",
+      "updated_at": "2025-05-15T17:43:52.822662+00:00"
+    }
+  ]
+}
