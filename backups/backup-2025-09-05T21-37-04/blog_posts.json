@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "table": "blog_posts",
+    "timestamp": "2025-09-05T21-37-04",
+    "recordCount": 3,
+    "backupDate": "2025-09-05T21:37:12.001Z",
+    "schema": {
+      "table_name": "blog_posts",
+      "columns": []
+    }
+  },
+  "data": [
+    {
+      "id": "a5d69173-f7cf-4c02-a694-7c19b7a5cc33",
+      "title": "The Future of Biodegradable Plastics in Packaging",
+      "slug": "future-biodegradable-plastics-packaging",
+      "excerpt": "Excerpt here...",
+      "content": "# Content here...",
+      "featured_image_url": "/images/blog/sustainable-packaging-trends.png",
+      "category_id": null,
+      "author_id": null,
+      "status": "published",
+      "published_at": "2025-07-10T13:37:31.719593+00:00",
+      "meta_title": "Meta title here",
+      "meta_description": "Meta description here",
+      "reading_time": 5,
+      "views_count": 156,
+      "likes_count": 0,
+      "comments_count": 0,
+      "featured": false,
+      "created_at": "2025-07-12T13:37:31.719593+00:00",
+      "updated_at": "2025-07-12T13:37:31.719593+00:00"
+    },
+    {
+      "id": "0c1a5600-6fbb-4f64-82a0-2cc4bf708f44",
+      "title": "Biodegradable vs. Compostable: Understanding the Difference",
+      "slug": "biodegradable-vs-compostable",
+      "excerpt": "Learn the crucial differences between biodegradable and compostable materials to make more informed environmental choices.",
+      "content": "# Biodegradable vs. Compostable: Understanding the Difference\\n\\nThe terms \"biodegradable\" and \"compostable\" are often used interchangeably, but they represent different processes and outcomes. This blog post clarifies these important distinctions to help consumers make more informed choices.\\n\\n## What Does Biodegradable Mean?\\n\\nBiodegradable materials break down naturally through biological processes, returning to nature over time. However, there's no specific timeframe for this process, and some \"biodegradable\" products may still take years or decades to fully decompose.\\n\\n## What Does Compostable Mean?\\n\\nCompostable materials not only break down but do so in a specific timeframe (typically around 90 days) and in specific composting conditions. Additionally, they leave no toxic residue and can actually benefit the soil as they decompose.\\n\\n## Key Differences\\n\\n1. **Timeframe**: Biodegradable has no time requirement, while compostable materials must break down within a specific period.\\n2. **End Result**: Biodegradable materials simply break down, while compostable materials convert into nutrient-rich compost.\\n3. **Certification**: Compostable products often meet specific standards (like ASTM D6400 or EN13432), while \"biodegradable\" has fewer regulatory definitions.\\n4. **Environmental Impact**: Not all biodegradable materials are beneficial to the environment, whereas properly composted materials contribute positively to soil health.\\n\\n## Making Informed Choices\\n\\nWhen selecting products, look for specific certifications rather than vague claims. Products certified as compostable by recognized organizations have been tested to ensure they break down completely in composting facilities without leaving harmful residues.\\n\\n## Conclusion\\n\\nUnderstanding the difference between biodegradable and compostable is crucial for making environmentally responsible choices. While both options are generally better than non-degradable plastics, compostable materials typically offer superior environmental benefits when properly disposed of.",
+      "featured_image_url": "https://ylqpagsrjmoelausmtku.supabase.co/storage/v1/object/public/media-library/uploads/1755077514471-mywd7e5s9oq.jpg",
+      "category_id": null,
+      "author_id": null,
+      "status": "published",
+      "published_at": "2023-12-05T14:30:00+00:00",
+      "meta_title": "",
+      "meta_description": "",
+      "reading_time": 5,
+      "views_count": 0,
+      "likes_count": 0,
+      "comments_count": 0,
+      "featured": false,
+      "created_at": "2025-08-11T09:32:13.846837+00:00",
+      "updated_at": "2025-08-17T06:32:23.76081+00:00"
+    },
+    {
+      "id": "f9c3297c-4291-485f-ad70-8a8e5a4a4c69",
+      "title": "The Future of Sustainable Packaging",
+      "slug": "future-of-sustainable-packaging",
+      "excerpt": "Explore the latest trends and innovations in sustainable packaging solutions that are shaping the future of the industry.",
+      "content": "# The Future of Sustainable Packaging\\n\\nSustainable packaging is rapidly evolving as businesses and consumers alike recognize the urgent need to reduce plastic waste and environmental impact. This blog explores the latest trends and innovations in eco-friendly packaging solutions.\\n\\n## Biodegradable Materials\\n\\nOne of the most significant advancements in sustainable packaging is the development of truly biodegradable materials. Unlike traditional plastics that can take hundreds of years to break down, these new materials decompose naturally within months under the right conditions.\\n\\n## Compostable Alternatives\\n\\nCompostable packaging goes a step further by not only breaking down but also providing nutrients to the soil. Materials like bagasse (sugarcane fiber), mushroom packaging, and seaweed-based films are gaining popularity for their minimal environmental footprint.\\n\\n## Circular Economy Approaches\\n\\nThe concept of a circular economy is central to the future of packaging. This involves designing products that can be reused, recycled, or composted, eliminating waste and pollution from the start.\\n\\n## Regulatory Changes\\n\\nGovernments worldwide are implementing stricter regulations on single-use plastics, driving innovation in the packaging industry. These policies are accelerating the transition to more sustainable alternatives.\\n\\n## Consumer Awareness\\n\\nIncreasing consumer awareness about environmental issues is putting pressure on brands to adopt more sustainable packaging solutions. Companies that embrace eco-friendly packaging often gain a competitive edge in the market.\\n\\n## Conclusion\\n\\nThe future of sustainable packaging looks promising, with continuous innovations addressing the environmental challenges posed by traditional packaging materials. As technology advances and awareness grows, we can expect even more creative and effective solutions to emerge.",
+      "featured_image_url": "https://ylqpagsrjmoelausmtku.supabase.co/storage/v1/object/public/media-library/https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=compostable%2520shopping%2520bags%2520made%2520from%2520plant%2520based%2520materials&image_size=landscape_16_9",
+      "category_id": null,
+      "author_id": null,
+      "status": "published",
+      "published_at": "2023-11-15T10:00:00+00:00",
+      "meta_title": "",
+      "meta_description": "",
+      "reading_time": 5,
+      "views_count": 1,
+      "likes_count": 0,
+      "comments_count": 0,
+      "featured": false,
+      "created_at": "2025-08-11T09:32:13.846837+00:00",
+      "updated_at": "2025-08-17T06:33:12.346426+00:00"
+    }
+  ]
+}

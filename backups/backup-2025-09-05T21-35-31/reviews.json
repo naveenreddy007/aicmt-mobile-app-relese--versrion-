@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "table": "reviews",
+    "timestamp": "2025-09-05T21-35-31",
+    "recordCount": 5,
+    "backupDate": "2025-09-05T21:35:48.554Z",
+    "schema": {
+      "table_name": "reviews",
+      "columns": []
+    }
+  },
+  "data": [
+    {
+      "id": "9d0097d7-a6a7-4636-843c-214848c08954",
+      "product_id": "5a79f63b-091e-4a02-9cd8-2688eb4a5bc9",
+      "user_id": "f6443e86-72f6-408c-82d7-e187a2d59cc6",
+      "name": "naveen",
+      "email": "uscl.bilvalabs@gmail.com",
+      "rating": 5,
+      "title": "cv ",
+      "content": "dc x",
+      "status": "approved",
+      "is_verified_purchase": false,
+      "helpful_count": 0,
+      "created_at": "2025-07-08T14:35:19.636988+00:00",
+      "updated_at": "2025-07-08T15:09:02.235777+00:00"
+    },
+    {
+      "id": "fb9ec03e-9899-46ea-881e-b917bd9637ee",
+      "product_id": "5a79f63b-091e-4a02-9cd8-2688eb4a5bc9",
+      "user_id": "f6443e86-72f6-408c-82d7-e187a2d59cc6",
+      "name": "naveen",
+      "email": "uscl.bilvalabs@gmail.com",
+      "rating": 5,
+      "title": "iuhjgyhftgr",
+      "content": "uyjgfhdgs",
+      "status": "rejected",
+      "is_verified_purchase": false,
+      "helpful_count": 0,
+      "created_at": "2025-07-08T14:34:12.209602+00:00",
+      "updated_at": "2025-07-08T15:09:06.443826+00:00"
+    },
+    {
+      "id": "2a35b7f2-c7f2-46d4-a719-84f8780b2c0b",
+      "product_id": "c3d4e5f6-a7b8-9012-3456-7890abcdef01",
+      "user_id": "f6443e86-72f6-408c-82d7-e187a2d59cc6",
+      "name": "admin",
+      "email": "uscl.bilvalabs@gmail.com",
+      "rating": 4,
+      "title": "5ytr",
+      "content": "5yr",
+      "status": "pending",
+      "is_verified_purchase": false,
+      "helpful_count": 0,
+      "created_at": "2025-08-11T12:15:01.370327+00:00",
+      "updated_at": "2025-08-11T12:15:01.370327+00:00"
+    },
+    {
+      "id": "347d3d4e-1822-453c-99f8-67a176e52fa8",
+      "product_id": "19e6af38-f45c-439e-8df2-4f369dfe3c53",
+      "user_id": "f6443e86-72f6-408c-82d7-e187a2d59cc6",
+      "name": "kjhgf",
+      "email": "buttaconvention84@gmail.com",
+      "rating": 5,
+      "title": "lkjhg",
+      "content": "lkiuygf",
+      "status": "pending",
+      "is_verified_purchase": false,
+      "helpful_count": 0,
+      "created_at": "2025-08-29T12:25:10.124143+00:00",
+      "updated_at": "2025-08-29T12:25:10.124143+00:00"
+    },
+    {
+      "id": "084270ff-e952-48d1-8909-d1cc47f775e3",
+      "product_id": "19e6af38-f45c-439e-8df2-4f369dfe3c53",
+      "user_id": "f6443e86-72f6-408c-82d7-e187a2d59cc6",
+      "name": ";loi",
+      "email": "kiuytr@uio.cgyujn",
+      "rating": 5,
+      "title": "uiluytr",
+      "content": "oipuytr",
+      "status": "approved",
+      "is_verified_purchase": false,
+      "helpful_count": 0,
+      "created_at": "2025-08-29T12:33:37.217364+00:00",
+      "updated_at": "2025-08-29T12:34:56.527346+00:00"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "table": "roles",
+    "timestamp": "2025-09-05T21-37-04",
+    "recordCount": 3,
+    "backupDate": "2025-09-05T21:37:37.559Z",
+    "schema": {
+      "table_name": "roles",
+      "columns": []
+    }
+  },
+  "data": [
+    {
+      "id": "7a91ea39-0761-4210-8bd3-1afe471018d7",
+      "name": "admin",
+      "description": "Full access to all system features",
+      "created_at": "2025-05-15T15:52:15.991351+00:00",
+      "updated_at": "2025-05-15T15:52:15.991351+00:00"
+    },
+    {
+      "id": "4c458ff7-0600-4551-beec-87d4d49dc811",
+      "name": "editor",
+      "description": "Can manage content but not system settings",
+      "created_at": "2025-05-15T15:52:15.991351+00:00",
+      "updated_at": "2025-05-15T15:52:15.991351+00:00"
+    },
+    {
+      "id": "d7a12bf1-e635-4dc3-90ab-496224f3c99c",
+      "name": "viewer",
+      "description": "Read-only access to content",
+      "created_at": "2025-05-15T15:52:15.991351+00:00",
+      "updated_at": "2025-05-15T15:52:15.991351+00:00"
+    }
+  ]
+}

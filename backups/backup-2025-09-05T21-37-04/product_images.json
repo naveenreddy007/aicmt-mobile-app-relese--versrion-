@@ -1,0 +1,248 @@
+{
+  "metadata": {
+    "table": "product_images",
+    "timestamp": "2025-09-05T21-37-04",
+    "recordCount": 26,
+    "backupDate": "2025-09-05T21:37:27.467Z",
+    "schema": {
+      "table_name": "product_images",
+      "columns": []
+    }
+  },
+  "data": [
+    {
+      "id": "7328e3f0-5cfd-4267-bdf6-e6568ca0e2f1",
+      "product_id": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+      "image_url": "https://images.unsplash.com/photo-1593113646773-69316952a56a?q=80&w=800&auto=format&fit=crop",
+      "created_at": "2025-06-19T02:57:27.347948+00:00",
+      "alt_text": "Front view of the eco-friendly carry bag",
+      "is_primary": true,
+      "display_order": 0
+    },
+    {
+      "id": "5cf4d026-aaf7-4a92-b045-e62003447244",
+      "product_id": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+      "image_url": "https://images.unsplash.com/photo-1588920447436-4259b374392d?q=80&w=800&auto=format&fit=crop",
+      "created_at": "2025-06-19T02:57:27.347948+00:00",
+      "alt_text": "Close-up of the bag material texture",
+      "is_primary": false,
+      "display_order": 1
+    },
+    {
+      "id": "8168b172-df60-44f0-9f37-60f7a6c57c65",
+      "product_id": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+      "image_url": "https://images.unsplash.com/photo-1621956392088-3121b644223c?q=80&w=800&auto=format&fit=crop",
+      "created_at": "2025-06-19T02:57:27.347948+00:00",
+      "alt_text": "Bag being used for grocery shopping",
+      "is_primary": false,
+      "display_order": 2
+    },
+    {
+      "id": "95a0ead3-22b7-4491-92fe-531e82d817b5",
+      "product_id": "b2c3d4e5-f6a7-8901-2345-67890abcdef0",
+      "image_url": "https://images.unsplash.com/photo-1615937691194-1851494539b9?q=80&w=800&auto=format&fit=crop",
+      "created_at": "2025-06-19T02:57:27.347948+00:00",
+      "alt_text": "Roll of compostable food waste liners",
+      "is_primary": true,
+      "display_order": 0
+    },
+    {
+      "id": "9f52c71a-31a1-444a-8783-402c5175df25",
+      "product_id": "b2c3d4e5-f6a7-8901-2345-67890abcdef0",
+      "image_url": "https://images.unsplash.com/photo-1599054802234-2d55476069a2?q=80&w=800&auto=format&fit=crop",
+      "created_at": "2025-06-19T02:57:27.347948+00:00",
+      "alt_text": "A single liner opened up",
+      "is_primary": false,
+      "display_order": 1
+    },
+    {
+      "id": "cb0d90a7-0574-4f26-9d03-fb48395be19b",
+      "product_id": "b2c3d4e5-f6a7-8901-2345-67890abcdef0",
+      "image_url": "https://images.unsplash.com/photo-1593113598332-cd288d649433?q=80&w=800&auto=format&fit=crop",
+      "created_at": "2025-06-19T02:57:27.347948+00:00",
+      "alt_text": "Liner being placed in a kitchen caddy",
+      "is_primary": false,
+      "display_order": 2
+    },
+    {
+      "id": "1ad450d5-3714-4d06-bb42-d5ac79f198e7",
+      "product_id": "c3d4e5f6-a7b8-9012-3456-7890abcdef01",
+      "image_url": "https://images.unsplash.com/photo-1586799089834-51374115c54f?q=80&w=800&auto=format&fit=crop",
+      "created_at": "2025-06-19T02:57:27.347948+00:00",
+      "alt_text": "Roll of agricultural mulch film",
+      "is_primary": true,
+      "display_order": 0
+    },
+    {
+      "id": "9bb7fa83-64e4-4263-8350-f602bf9c60c9",
+      "product_id": "c3d4e5f6-a7b8-9012-3456-7890abcdef01",
+      "image_url": "https://images.unsplash.com/photo-1492496913980-501348b61469?q=80&w=800&auto=format&fit=crop",
+      "created_at": "2025-06-19T02:57:27.347948+00:00",
+      "alt_text": "Mulch film laid out in a field",
+      "is_primary": false,
+      "display_order": 1
+    },
+    {
+      "id": "c0a23af5-83e5-4bea-b23e-791326bcac5e",
+      "product_id": "8a7d385c-95b5-4963-9f60-a728d711def8",
+      "image_url": "https://5.imimg.com/data5/ANDROID/Default/2024/4/414506925/XW/GC/JL/1940978/product-250x250.jpg",
+      "created_at": "2025-06-19T03:32:29.305365+00:00",
+      "alt_text": "vikram ",
+      "is_primary": true,
+      "display_order": 0
+    },
+    {
+      "id": "db7a55ed-9e7b-4353-92fb-99cc5c94f9ed",
+      "product_id": "5a79f63b-091e-4a02-9cd8-2688eb4a5bc9",
+      "image_url": "https://ylqpagsrjmoelausmtku.supabase.co/storage/v1/object/public/product-images/products/5a79f63b-091e-4a02-9cd8-2688eb4a5bc9/1754903340232-inside%20view%20to%20ut%20sode%20%20wall.jpg",
+      "created_at": "2025-08-11T09:09:02.10693+00:00",
+      "alt_text": "0807",
+      "is_primary": false,
+      "display_order": 0
+    },
+    {
+      "id": "d166ddcf-14ca-44c0-97cd-24445c1c9d37",
+      "product_id": "5a79f63b-091e-4a02-9cd8-2688eb4a5bc9",
+      "image_url": "https://ylqpagsrjmoelausmtku.supabase.co/storage/v1/object/public/product-images/products/5a79f63b-091e-4a02-9cd8-2688eb4a5bc9/1754903342611-Screenshot%202025-08-01%20104141.png",
+      "created_at": "2025-08-11T09:09:05.307958+00:00",
+      "alt_text": "0807",
+      "is_primary": false,
+      "display_order": 1
+    },
+    {
+      "id": "e3f0616c-e28f-4dc3-a9de-a743c416ea42",
+      "product_id": "bfc3dd64-c744-4c6f-9ec6-4d089d74b609",
+      "image_url": "https://images.unsplash.com/photo-1615937691194-1851494539b9?q=80&w=800&auto=format&fit=crop",
+      "created_at": "2025-08-11T09:36:24.968651+00:00",
+      "alt_text": "Biodegradable Shopping Bags - Biodegradable product",
+      "is_primary": true,
+      "display_order": 0
+    },
+    {
+      "id": "3185884c-680d-4326-94d0-1e81ea4a599d",
+      "product_id": "b550d033-19cd-4e87-905c-ed35fcb7b031",
+      "image_url": "https://images.unsplash.com/photo-1615937691194-1851494539b9?q=80&w=800&auto=format&fit=crop",
+      "created_at": "2025-08-11T09:36:24.968651+00:00",
+      "alt_text": "Compostable Garbage Bags - Biodegradable product",
+      "is_primary": true,
+      "display_order": 0
+    },
+    {
+      "id": "ac667ae9-b8cf-4efd-8afa-8c7486dfb64a",
+      "product_id": "aa3b172f-5923-40ab-8425-3fc67ae50395",
+      "image_url": "https://images.unsplash.com/photo-1615937691194-1851494539b9?q=80&w=800&auto=format&fit=crop",
+      "created_at": "2025-08-11T09:36:24.968651+00:00",
+      "alt_text": "Biodegradable Food Containers - Biodegradable product",
+      "is_primary": true,
+      "display_order": 0
+    },
+    {
+      "id": "bc8a68f2-f389-4e5c-af6c-6f91529cb42b",
+      "product_id": "ec7d7cf7-412d-4659-aeee-f212fdaa2d6e",
+      "image_url": "https://images.unsplash.com/photo-1615937691194-1851494539b9?q=80&w=800&auto=format&fit=crop",
+      "created_at": "2025-08-11T09:36:24.968651+00:00",
+      "alt_text": "Compostable Cutlery Set - Biodegradable product",
+      "is_primary": true,
+      "display_order": 0
+    },
+    {
+      "id": "49cfb678-1cbc-49bf-b12b-e53f1f605ade",
+      "product_id": "cdc526df-e3ff-4c53-aeed-040d659a0a85",
+      "image_url": "https://images.unsplash.com/photo-1615937691194-1851494539b9?q=80&w=800&auto=format&fit=crop",
+      "created_at": "2025-08-11T09:36:24.968651+00:00",
+      "alt_text": "Biodegradable Packaging Film - Biodegradable product",
+      "is_primary": true,
+      "display_order": 0
+    },
+    {
+      "id": "3e7fb5c6-3f02-4fe1-8d86-349c7a998a30",
+      "product_id": "f9001979-6abd-4de5-a4e2-f40febe97c52",
+      "image_url": "https://images.unsplash.com/photo-1615937691194-1851494539b9?q=80&w=800&auto=format&fit=crop",
+      "created_at": "2025-08-11T09:36:24.968651+00:00",
+      "alt_text": "eyr - Biodegradable product",
+      "is_primary": true,
+      "display_order": 0
+    },
+    {
+      "id": "3dd11c2a-1c36-41de-ac80-147f7ea98a86",
+      "product_id": "3364b188-888f-497d-b0d4-2ee617b801f7",
+      "image_url": "https://images.unsplash.com/photo-1615937691194-1851494539b9?q=80&w=800&auto=format&fit=crop",
+      "created_at": "2025-08-11T09:36:24.968651+00:00",
+      "alt_text": "naveen - Biodegradable product",
+      "is_primary": true,
+      "display_order": 0
+    },
+    {
+      "id": "74a58a48-0754-49be-b4ac-a28b2c67f619",
+      "product_id": "56116cb5-8a21-43c1-9baa-239f92534313",
+      "image_url": "https://images.unsplash.com/photo-1615937691194-1851494539b9?q=80&w=800&auto=format&fit=crop",
+      "created_at": "2025-08-11T09:36:24.968651+00:00",
+      "alt_text": "naveen - Biodegradable product",
+      "is_primary": true,
+      "display_order": 0
+    },
+    {
+      "id": "eb739935-cf13-4dc6-ac64-e98fc5660c41",
+      "product_id": "97033bb1-9478-4f12-a981-e4a7182cdfff",
+      "image_url": "https://images.unsplash.com/photo-1615937691194-1851494539b9?q=80&w=800&auto=format&fit=crop",
+      "created_at": "2025-08-11T09:36:24.968651+00:00",
+      "alt_text": "vikram  - Biodegradable product",
+      "is_primary": true,
+      "display_order": 0
+    },
+    {
+      "id": "f1cf777b-cba3-40c8-89f5-461215ee9a31",
+      "product_id": "bd647f0d-bc73-4d03-a867-be49c9263d86",
+      "image_url": "https://images.unsplash.com/photo-1492496913980-501348b61469?q=80&w=800&auto=format&fit=crop",
+      "created_at": "2025-08-11T09:36:24.968651+00:00",
+      "alt_text": "demo product  - Biodegradable product",
+      "is_primary": true,
+      "display_order": 0
+    },
+    {
+      "id": "e9c31056-dd6b-463a-84dd-2a2fe3f68b2d",
+      "product_id": "136729fe-1241-4fb0-99a3-b613f637f91b",
+      "image_url": "https://ylqpagsrjmoelausmtku.supabase.co/storage/v1/object/public/product-images/products/136729fe-1241-4fb0-99a3-b613f637f91b/1754912367670-24event%20cancalled%20check.jpg",
+      "created_at": "2025-08-11T11:39:30.090853+00:00",
+      "alt_text": "ridhi",
+      "is_primary": true,
+      "display_order": 0
+    },
+    {
+      "id": "278cdd65-d25b-4d41-b3ec-38f571631487",
+      "product_id": "110da54d-497c-455b-bd6a-e511d859c600",
+      "image_url": "https://ylqpagsrjmoelausmtku.supabase.co/storage/v1/object/public/product-images/products/110da54d-497c-455b-bd6a-e511d859c600/1755410869360-Pouches%20Milk%20White%20-%205%20X%208%20Inches%20(Private%20Labelling%202).JPG",
+      "created_at": "2025-08-17T06:07:52.821287+00:00",
+      "alt_text": "white cover ",
+      "is_primary": true,
+      "display_order": 0
+    },
+    {
+      "id": "a57d891e-5b6a-4814-aa8c-e341986954ea",
+      "product_id": "19e6af38-f45c-439e-8df2-4f369dfe3c53",
+      "image_url": "https://ylqpagsrjmoelausmtku.supabase.co/storage/v1/object/public/product-images/products/19e6af38-f45c-439e-8df2-4f369dfe3c53/1756469950549-WhatsApp%20Image%202025-07-30%20at%2016.01.32_a9ccc143.jpg",
+      "created_at": "2025-08-29T12:19:11.322222+00:00",
+      "alt_text": "17:40",
+      "is_primary": true,
+      "display_order": 0
+    },
+    {
+      "id": "ce7fdcea-1514-4f9f-a1d4-e23fddea6924",
+      "product_id": "19e6af38-f45c-439e-8df2-4f369dfe3c53",
+      "image_url": "https://ylqpagsrjmoelausmtku.supabase.co/storage/v1/object/public/product-images/products/19e6af38-f45c-439e-8df2-4f369dfe3c53/1756469952414-WIN_20250823_09_49_58_Pro.jpg",
+      "created_at": "2025-08-29T12:19:13.786562+00:00",
+      "alt_text": "17:40",
+      "is_primary": false,
+      "display_order": 1
+    },
+    {
+      "id": "f1cec2d1-51ed-4ee5-bdf2-e84c3ca9f726",
+      "product_id": "8b6bc916-6657-46ba-8299-bbcc7ec5c364",
+      "image_url": "https://ylqpagsrjmoelausmtku.supabase.co/storage/v1/object/public/product-images/products/8b6bc916-6657-46ba-8299-bbcc7ec5c364/1756536349880-WIN_20250823_09_49_58_Pro.jpg",
+      "created_at": "2025-08-30T06:45:51.627757+00:00",
+      "alt_text": "Raj",
+      "is_primary": true,
+      "display_order": 0
+    }
+  ]
+}

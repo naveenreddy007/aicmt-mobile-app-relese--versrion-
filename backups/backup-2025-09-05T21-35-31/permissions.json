@@ -1,0 +1,185 @@
+{
+  "metadata": {
+    "table": "permissions",
+    "timestamp": "2025-09-05T21-35-31",
+    "recordCount": 19,
+    "backupDate": "2025-09-05T21:35:43.042Z",
+    "schema": {
+      "table_name": "permissions",
+      "columns": []
+    }
+  },
+  "data": [
+    {
+      "id": "a50d3436-ebce-4b84-9a58-5bacc2a2bcd9",
+      "name": "view_dashboard",
+      "description": "Can view dashboard",
+      "resource": "dashboard",
+      "action": "view",
+      "created_at": "2025-05-15T15:52:15.991351+00:00",
+      "updated_at": "2025-05-15T15:52:15.991351+00:00"
+    },
+    {
+      "id": "ce0bbb67-7fce-491a-9116-bdbf59c2c551",
+      "name": "manage_products",
+      "description": "Can manage products",
+      "resource": "products",
+      "action": "manage",
+      "created_at": "2025-05-15T15:52:15.991351+00:00",
+      "updated_at": "2025-05-15T15:52:15.991351+00:00"
+    },
+    {
+      "id": "c102146a-d087-4653-b9b5-5abe156c22c9",
+      "name": "view_products",
+      "description": "Can view products",
+      "resource": "products",
+      "action": "view",
+      "created_at": "2025-05-15T15:52:15.991351+00:00",
+      "updated_at": "2025-05-15T15:52:15.991351+00:00"
+    },
+    {
+      "id": "b14153b3-3466-40d5-abb7-2f2e4db6a862",
+      "name": "manage_blog",
+      "description": "Can manage blog posts",
+      "resource": "blog",
+      "action": "manage",
+      "created_at": "2025-05-15T15:52:15.991351+00:00",
+      "updated_at": "2025-05-15T15:52:15.991351+00:00"
+    },
+    {
+      "id": "f6e0050b-10bc-43ac-b439-89d099c9df35",
+      "name": "view_blog",
+      "description": "Can view blog posts",
+      "resource": "blog",
+      "action": "view",
+      "created_at": "2025-05-15T15:52:15.991351+00:00",
+      "updated_at": "2025-05-15T15:52:15.991351+00:00"
+    },
+    {
+      "id": "7e18bd33-9f99-47b5-b8fb-8dfe0975a1f0",
+      "name": "manage_inquiries",
+      "description": "Can manage inquiries",
+      "resource": "inquiries",
+      "action": "manage",
+      "created_at": "2025-05-15T15:52:15.991351+00:00",
+      "updated_at": "2025-05-15T15:52:15.991351+00:00"
+    },
+    {
+      "id": "b5f46afe-0fb3-4f6f-be52-0a4a5f7149fd",
+      "name": "view_inquiries",
+      "description": "Can view inquiries",
+      "resource": "inquiries",
+      "action": "view",
+      "created_at": "2025-05-15T15:52:15.991351+00:00",
+      "updated_at": "2025-05-15T15:52:15.991351+00:00"
+    },
+    {
+      "id": "6cfbca41-0432-47bf-88ce-54c955fa5c0c",
+      "name": "manage_users",
+      "description": "Can manage users",
+      "resource": "users",
+      "action": "manage",
+      "created_at": "2025-05-15T15:52:15.991351+00:00",
+      "updated_at": "2025-05-15T15:52:15.991351+00:00"
+    },
+    {
+      "id": "3766ca86-6bd8-482e-bfbf-6f2f66fe7d1d",
+      "name": "view_users",
+      "description": "Can view users",
+      "resource": "users",
+      "action": "view",
+      "created_at": "2025-05-15T15:52:15.991351+00:00",
+      "updated_at": "2025-05-15T15:52:15.991351+00:00"
+    },
+    {
+      "id": "d98ed7a1-63db-46a0-bedf-d9e9c958a482",
+      "name": "manage_media",
+      "description": "Can manage media library",
+      "resource": "media",
+      "action": "manage",
+      "created_at": "2025-05-15T15:52:15.991351+00:00",
+      "updated_at": "2025-05-15T15:52:15.991351+00:00"
+    },
+    {
+      "id": "62319feb-b7a6-497b-bb65-761fcba1dbdc",
+      "name": "view_media",
+      "description": "Can view media library",
+      "resource": "media",
+      "action": "view",
+      "created_at": "2025-05-15T15:52:15.991351+00:00",
+      "updated_at": "2025-05-15T15:52:15.991351+00:00"
+    },
+    {
+      "id": "527c26db-f8d3-4294-a126-fdd8b1db2fa2",
+      "name": "manage_seo",
+      "description": "Can manage SEO settings",
+      "resource": "seo",
+      "action": "manage",
+      "created_at": "2025-05-15T15:52:15.991351+00:00",
+      "updated_at": "2025-05-15T15:52:15.991351+00:00"
+    },
+    {
+      "id": "d7c23cf0-9342-42cc-ad96-7c58ab594145",
+      "name": "view_seo",
+      "description": "Can view SEO settings",
+      "resource": "seo",
+      "action": "view",
+      "created_at": "2025-05-15T15:52:15.991351+00:00",
+      "updated_at": "2025-05-15T15:52:15.991351+00:00"
+    },
+    {
+      "id": "01a753dc-7fe3-4780-8ec2-6a47fabc0d50",
+      "name": "manage_roles",
+      "description": "Can manage roles and permissions",
+      "resource": "roles",
+      "action": "manage",
+      "created_at": "2025-05-15T15:52:15.991351+00:00",
+      "updated_at": "2025-05-15T15:52:15.991351+00:00"
+    },
+    {
+      "id": "87fae5a0-e3c0-46c1-addb-45917078b20b",
+      "name": "view_roles",
+      "description": "Can view roles and permissions",
+      "resource": "roles",
+      "action": "view",
+      "created_at": "2025-05-15T15:52:15.991351+00:00",
+      "updated_at": "2025-05-15T15:52:15.991351+00:00"
+    },
+    {
+      "id": "6a210ca2-31a5-43b1-a5ff-6d782ab04adb",
+      "name": "manage_backups",
+      "description": "Can manage backups",
+      "resource": "backups",
+      "action": "manage",
+      "created_at": "2025-05-15T15:52:15.991351+00:00",
+      "updated_at": "2025-05-15T15:52:15.991351+00:00"
+    },
+    {
+      "id": "ceff1086-1cd9-480d-a662-d0abbd46383d",
+      "name": "view_backups",
+      "description": "Can view backups",
+      "resource": "backups",
+      "action": "view",
+      "created_at": "2025-05-15T15:52:15.991351+00:00",
+      "updated_at": "2025-05-15T15:52:15.991351+00:00"
+    },
+    {
+      "id": "303aa859-ca7b-4d10-bf83-78796935225f",
+      "name": "manage_settings",
+      "description": "Can manage system settings",
+      "resource": "settings",
+      "action": "manage",
+      "created_at": "2025-05-15T15:52:15.991351+00:00",
+      "updated_at": "2025-05-15T15:52:15.991351+00:00"
+    },
+    {
+      "id": "e09f7a4f-449d-46c9-adda-c9d9db3b0ede",
+      "name": "view_settings",
+      "description": "Can view system settings",
+      "resource": "settings",
+      "action": "view",
+      "created_at": "2025-05-15T15:52:15.991351+00:00",
+      "updated_at": "2025-05-15T15:52:15.991351+00:00"
+    }
+  ]
+}

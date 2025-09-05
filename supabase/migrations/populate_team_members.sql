@@ -1,0 +1,30 @@
+-- Populate team_members table with diverse team profiles for AICMT International
+
+INSERT INTO team_members (name, position, description, image_url, category, display_order, is_active) VALUES
+-- Leadership Team
+('Dr. Sarah Chen', 'Chief Executive Officer', 'Visionary leader with 15+ years in sustainable materials. PhD in Environmental Engineering from MIT. Led the transformation of AICMT from startup to industry leader in biodegradable packaging solutions.', 'https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=professional%20headshot%20of%20asian%20female%20CEO%20in%20business%20suit%20confident%20smile%20modern%20office%20background&image_size=portrait_4_3', 'leadership', 1, true),
+
+('Michael Rodriguez', 'Chief Technology Officer', 'Innovation expert specializing in bioplastic development. Former senior researcher at DuPont with 20+ patents in sustainable materials. Leads our R&D initiatives in next-generation packaging solutions.', 'https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=professional%20headshot%20of%20hispanic%20male%20CTO%20in%20smart%20casual%20attire%20laboratory%20background&image_size=portrait_4_3', 'leadership', 2, true),
+
+('Jennifer Thompson', 'Chief Financial Officer', 'Financial strategist with expertise in sustainable business models. CPA with MBA from Wharton. Successfully secured $50M in Series B funding and managed IPO preparations.', 'https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=professional%20headshot%20of%20caucasian%20female%20CFO%20in%20navy%20blazer%20financial%20charts%20background&image_size=portrait_4_3', 'leadership', 3, true),
+
+-- R&D Team
+('Dr. Raj Patel', 'Head of Research & Development', 'Materials scientist with expertise in polymer chemistry. PhD from Stanford. Leading breakthrough research in marine-biodegradable plastics and compostable food packaging.', 'https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=professional%20headshot%20of%20indian%20male%20scientist%20in%20lab%20coat%20research%20laboratory%20background&image_size=portrait_4_3', 'research', 4, true),
+
+('Dr. Emily Watson', 'Senior Polymer Engineer', 'Chemical engineer specializing in biodegradable polymer synthesis. 10+ years at 3M before joining AICMT. Expert in scaling lab innovations to commercial production.', 'https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=professional%20headshot%20of%20caucasian%20female%20engineer%20in%20safety%20glasses%20manufacturing%20facility%20background&image_size=portrait_4_3', 'research', 5, true),
+
+('Dr. James Liu', 'Sustainability Research Lead', 'Environmental scientist focused on lifecycle assessment and circular economy principles. Published 50+ papers on sustainable packaging. Leads our carbon neutrality initiatives.', 'https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=professional%20headshot%20of%20asian%20male%20scientist%20in%20business%20casual%20green%20technology%20background&image_size=portrait_4_3', 'research', 6, true),
+
+-- Operations Team
+('Maria Gonzalez', 'VP of Operations', 'Operations expert with 18+ years in manufacturing. Former Toyota Production System specialist. Implemented lean manufacturing principles reducing waste by 40%.', 'https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=professional%20headshot%20of%20latina%20female%20operations%20manager%20in%20hard%20hat%20factory%20floor%20background&image_size=portrait_4_3', 'operations', 7, true),
+
+('David Kim', 'Quality Assurance Director', 'Quality systems expert with Six Sigma Black Belt certification. Ensures all products meet international standards including ASTM D6400 and EN13432 certifications.', 'https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=professional%20headshot%20of%20korean%20male%20quality%20manager%20in%20lab%20coat%20testing%20equipment%20background&image_size=portrait_4_3', 'operations', 8, true),
+
+('Lisa Anderson', 'Supply Chain Manager', 'Logistics specialist focused on sustainable sourcing. Built partnerships with 200+ eco-friendly suppliers across 15 countries. Expert in green supply chain optimization.', 'https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=professional%20headshot%20of%20caucasian%20female%20supply%20chain%20manager%20in%20business%20attire%20warehouse%20background&image_size=portrait_4_3', 'operations', 9, true),
+
+-- Sustainability Team
+('Dr. Aisha Mohammed', 'Chief Sustainability Officer', 'Environmental policy expert with UN experience. PhD in Environmental Policy from Oxford. Leads our global sustainability initiatives and stakeholder engagement programs.', 'https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=professional%20headshot%20of%20african%20female%20sustainability%20officer%20in%20green%20blazer%20renewable%20energy%20background&image_size=portrait_4_3', 'sustainability', 10, true),
+
+('Thomas Mueller', 'Carbon Footprint Analyst', 'Environmental engineer specializing in carbon accounting and LCA studies. Certified in ISO 14040/14044 standards. Achieved company-wide carbon neutrality ahead of schedule.', 'https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=professional%20headshot%20of%20german%20male%20environmental%20analyst%20in%20casual%20shirt%20solar%20panels%20background&image_size=portrait_4_3', 'sustainability', 11, true),
+
+('Priya Sharma', 'Circular Economy Specialist', 'Waste management expert focused on closed-loop systems. Developed innovative take-back programs for used packaging. Expert in waste-to-energy and composting technologies.', 'https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=professional%20headshot%20of%20indian%20female%20circular%20economy%20specialist%20in%20eco%20friendly%20attire%20recycling%20facility%20background&image_size=portrait_4_3', 'sustainability', 12, true);

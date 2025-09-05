@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "table": "blog_post_tags",
+    "timestamp": "2025-08-11T07-28-47",
+    "recordCount": 4,
+    "backupDate": "2025-08-11T07:28:53.509Z",
+    "schema": null
+  },
+  "data": [
+    {
+      "id": "ba0c12c9-4865-4b83-887a-7253161d5f20",
+      "post_id": "a5d69173-f7cf-4c02-a694-7c19b7a5cc33",
+      "tag_id": null,
+      "created_at": "2025-07-12T13:38:58.334597+00:00"
+    },
+    {
+      "id": "4f4dc980-54c5-4d92-b580-cc6ca4d004cb",
+      "post_id": "a5d69173-f7cf-4c02-a694-7c19b7a5cc33",
+      "tag_id": null,
+      "created_at": "2025-07-12T13:38:58.334597+00:00"
+    },
+    {
+      "id": "d3952d91-ead4-4614-8cc3-3c37e79985ad",
+      "post_id": "a5d69173-f7cf-4c02-a694-7c19b7a5cc33",
+      "tag_id": null,
+      "created_at": "2025-07-12T13:38:58.334597+00:00"
+    },
+    {
+      "id": "6c172a29-e8d2-481c-8d25-5bce09a88cee",
+      "post_id": "a5d69173-f7cf-4c02-a694-7c19b7a5cc33",
+      "tag_id": null,
+      "created_at": "2025-07-12T13:38:58.334597+00:00"
+    }
+  ]
+}

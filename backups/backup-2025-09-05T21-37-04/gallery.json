@@ -1,0 +1,206 @@
+{
+  "metadata": {
+    "table": "gallery",
+    "timestamp": "2025-09-05T21-37-04",
+    "recordCount": 16,
+    "backupDate": "2025-09-05T21:37:18.703Z",
+    "schema": {
+      "table_name": "gallery",
+      "columns": []
+    }
+  },
+  "data": [
+    {
+      "id": "7265d3de-2d59-4435-a4ef-df8691d413a4",
+      "media_id": "550e8400-e29b-41d4-a716-446655440003",
+      "category": "facility",
+      "title": "Quality Control Testing Center",
+      "description": "Comprehensive testing facility ensuring highest quality standards for all our products.",
+      "alt_text": "Quality control testing center with advanced equipment",
+      "display_order": 3,
+      "is_active": true,
+      "created_at": "2025-08-14T17:59:15.374584+00:00",
+      "updated_at": "2025-08-14T17:59:15.374584+00:00"
+    },
+    {
+      "id": "2878b2a2-52c6-4540-8893-80e494ba5979",
+      "media_id": "550e8400-e29b-41d4-a716-446655440005",
+      "category": "products",
+      "title": "Compostable Shopping Bags",
+      "description": "Durable and completely compostable shopping bags made from plant-based materials.",
+      "alt_text": "Compostable shopping bags made from plant-based materials",
+      "display_order": 5,
+      "is_active": true,
+      "created_at": "2025-08-14T17:59:15.374584+00:00",
+      "updated_at": "2025-08-14T17:59:15.374584+00:00"
+    },
+    {
+      "id": "5a2f8a65-b200-4987-bcf6-06065d202494",
+      "media_id": "550e8400-e29b-41d4-a716-446655440006",
+      "category": "products",
+      "title": "Sustainable Material Samples",
+      "description": "Various samples of our innovative sustainable packaging materials and their applications.",
+      "alt_text": "Samples of sustainable packaging materials showing different textures",
+      "display_order": 6,
+      "is_active": true,
+      "created_at": "2025-08-14T17:59:15.374584+00:00",
+      "updated_at": "2025-08-14T17:59:15.374584+00:00"
+    },
+    {
+      "id": "83be4638-cdc3-441f-8003-b72b6a060b1f",
+      "media_id": "550e8400-e29b-41d4-a716-446655440008",
+      "category": "events",
+      "title": "Sustainability Conference 2024",
+      "description": "Our CEO presenting at the International Sustainability Conference on circular economy solutions.",
+      "alt_text": "CEO presenting at International Sustainability Conference",
+      "display_order": 8,
+      "is_active": false,
+      "created_at": "2025-08-14T17:59:15.374584+00:00",
+      "updated_at": "2025-08-18T13:59:20.871359+00:00"
+    },
+    {
+      "id": "0ed04907-6b46-467c-a9f8-58a633dd129f",
+      "media_id": "550e8400-e29b-41d4-a716-446655440007",
+      "category": "events",
+      "title": "Asia Packaging Innovation Awards 2023",
+      "description": "AICMT team receiving the prestigious Asia Packaging Innovation Award for breakthrough technology.",
+      "alt_text": "AICMT team receiving Asia Packaging Innovation Award at ceremony",
+      "display_order": 7,
+      "is_active": false,
+      "created_at": "2025-08-14T17:59:15.374584+00:00",
+      "updated_at": "2025-08-18T13:59:23.160528+00:00"
+    },
+    {
+      "id": "83111b9f-b3a9-4622-8843-51b32e897c05",
+      "media_id": "550e8400-e29b-41d4-a716-446655440004",
+      "category": "products",
+      "title": "Biodegradable Food Packaging Collection",
+      "description": "Our premium line of biodegradable food packaging products for various applications.",
+      "alt_text": "Collection of biodegradable food packaging products",
+      "display_order": 4,
+      "is_active": false,
+      "created_at": "2025-08-14T17:59:15.374584+00:00",
+      "updated_at": "2025-08-18T13:59:27.896091+00:00"
+    },
+    {
+      "id": "c0d8b977-f65a-468f-b8fe-15d008ea70a0",
+      "media_id": "550e8400-e29b-41d4-a716-446655440002",
+      "category": "facility",
+      "title": "Research and Development Laboratory",
+      "description": "Advanced R&D lab where we develop innovative biodegradable packaging solutions.",
+      "alt_text": "Research laboratory with scientists working on biodegradable materials",
+      "display_order": 2,
+      "is_active": false,
+      "created_at": "2025-08-14T17:59:15.374584+00:00",
+      "updated_at": "2025-08-18T13:59:32.269191+00:00"
+    },
+    {
+      "id": "6f1b5fe4-0cd4-4b33-b4b1-29140794e03a",
+      "media_id": "550e8400-e29b-41d4-a716-446655440012",
+      "category": "facility",
+      "title": "Quality Assurance Inspection",
+      "description": "Rigorous quality control process ensuring every product meets our high standards.",
+      "alt_text": "Quality assurance worker inspecting products in manufacturing facility",
+      "display_order": 12,
+      "is_active": true,
+      "created_at": "2025-08-14T17:59:15.374584+00:00",
+      "updated_at": "2025-08-14T17:59:15.374584+00:00"
+    },
+    {
+      "id": "a606ffdf-178a-426a-bd5c-672d79a2d9de",
+      "media_id": "ee91404e-6b5f-41a5-8714-196012ae92d3",
+      "category": "facility",
+      "title": "naveen",
+      "description": "yesyong",
+      "alt_text": "tesr",
+      "display_order": 0,
+      "is_active": false,
+      "created_at": "2025-08-18T13:53:30.831367+00:00",
+      "updated_at": "2025-08-18T13:53:30.831367+00:00"
+    },
+    {
+      "id": "7a172fa7-3613-462f-a84a-a2e3890d4a24",
+      "media_id": "550e8400-e29b-41d4-a716-446655440001",
+      "category": "facility",
+      "title": "State-of-the-Art Manufacturing Facility",
+      "description": "Our modern production facility equipped with latest sustainable manufacturing technology.",
+      "alt_text": "Modern manufacturing facility with sustainable production equipment",
+      "display_order": 1,
+      "is_active": false,
+      "created_at": "2025-08-14T17:59:15.374584+00:00",
+      "updated_at": "2025-08-18T13:58:51.130667+00:00"
+    },
+    {
+      "id": "170c24e5-f1cb-4365-bc15-a2ac29112abe",
+      "media_id": "550e8400-e29b-41d4-a716-446655440011",
+      "category": "facility",
+      "title": "Raw Material Processing",
+      "description": "Converting agricultural waste into high-quality biodegradable packaging materials.",
+      "alt_text": "Agricultural waste processing machinery for sustainable materials",
+      "display_order": 11,
+      "is_active": false,
+      "created_at": "2025-08-14T17:59:15.374584+00:00",
+      "updated_at": "2025-08-18T13:59:13.376664+00:00"
+    },
+    {
+      "id": "604995c0-ce04-433c-8603-65de650d9829",
+      "media_id": "550e8400-e29b-41d4-a716-446655440010",
+      "category": "facility",
+      "title": "Biodegradation Process Testing",
+      "description": "Laboratory process showing the biodegradation timeline of our packaging materials.",
+      "alt_text": "Laboratory biodegradation testing process with scientific equipment",
+      "display_order": 10,
+      "is_active": false,
+      "created_at": "2025-08-14T17:59:15.374584+00:00",
+      "updated_at": "2025-08-18T13:59:15.793285+00:00"
+    },
+    {
+      "id": "ef687a3b-f33b-4e69-9599-39a194dad946",
+      "media_id": "550e8400-e29b-41d4-a716-446655440009",
+      "category": "events",
+      "title": "Team Building and Training Workshop",
+      "description": "Annual team building event focused on sustainability practices and innovation collaboration.",
+      "alt_text": "Team building workshop with diverse employees collaborating",
+      "display_order": 9,
+      "is_active": false,
+      "created_at": "2025-08-14T17:59:15.374584+00:00",
+      "updated_at": "2025-08-18T13:59:18.550976+00:00"
+    },
+    {
+      "id": "f586c509-d03c-4c77-a673-299212fbdedb",
+      "media_id": "ee91404e-6b5f-41a5-8714-196012ae92d3",
+      "category": "facility",
+      "title": "testing",
+      "description": "hg rhegwrg erqggf",
+      "alt_text": "trst",
+      "display_order": 1,
+      "is_active": false,
+      "created_at": "2025-08-18T14:00:02.181903+00:00",
+      "updated_at": "2025-08-18T14:00:02.181903+00:00"
+    },
+    {
+      "id": "efc81ef0-df27-4159-98a5-539db3062db5",
+      "media_id": "ee91404e-6b5f-41a5-8714-196012ae92d3",
+      "category": "facility",
+      "title": "ttt",
+      "description": " rtr",
+      "alt_text": null,
+      "display_order": 0,
+      "is_active": false,
+      "created_at": "2025-08-18T14:00:34.140737+00:00",
+      "updated_at": "2025-08-18T14:00:34.140737+00:00"
+    },
+    {
+      "id": "911a87dc-be76-4748-b32b-17e8dc241882",
+      "media_id": "ee91404e-6b5f-41a5-8714-196012ae92d3",
+      "category": "facility",
+      "title": "gfds",
+      "description": "oijhgf",
+      "alt_text": "oiuytg",
+      "display_order": 1,
+      "is_active": false,
+      "created_at": "2025-08-18T14:03:27.191007+00:00",
+      "updated_at": "2025-08-18T14:03:27.191007+00:00"
+    }
+  ]
+}

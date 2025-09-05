@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "table": "review_images",
+    "timestamp": "2025-09-05T21-35-31",
+    "recordCount": 2,
+    "backupDate": "2025-09-05T21:35:46.874Z",
+    "schema": {
+      "table_name": "review_images",
+      "columns": []
+    }
+  },
+  "data": [
+    {
+      "id": "8e44d90d-7dcc-4dce-a228-4b301109bd73",
+      "review_id": "347d3d4e-1822-453c-99f8-67a176e52fa8",
+      "image_url": "https://ylqpagsrjmoelausmtku.supabase.co/storage/v1/object/public/product-reviews/reviews/347d3d4e-1822-453c-99f8-67a176e52fa8/1756470310926-WIN_20250823_09_49_58_Pro.jpg",
+      "created_at": "2025-08-29T12:25:12.221881+00:00"
+    },
+    {
+      "id": "ba345d5c-8003-4f17-ad4e-8b40852bc136",
+      "review_id": "084270ff-e952-48d1-8909-d1cc47f775e3",
+      "image_url": "https://ylqpagsrjmoelausmtku.supabase.co/storage/v1/object/public/product-reviews/reviews/084270ff-e952-48d1-8909-d1cc47f775e3/1756470817998-WIN_20250823_09_49_58_Pro.jpg",
+      "created_at": "2025-08-29T12:33:39.477677+00:00"
+    }
+  ]
+}

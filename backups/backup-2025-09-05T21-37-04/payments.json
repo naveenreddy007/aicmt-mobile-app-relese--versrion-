@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "table": "payments",
+    "timestamp": "2025-09-05T21-37-04",
+    "recordCount": 5,
+    "backupDate": "2025-09-05T21:37:25.603Z",
+    "schema": {
+      "table_name": "payments",
+      "columns": []
+    }
+  },
+  "data": [
+    {
+      "id": "1bff7175-a25f-4b70-993b-821a14db3232",
+      "quotation_id": "e26a2d83-54d7-4c89-afc0-38a63eb5f9aa",
+      "amount": 500,
+      "payment_method": "bank_transfer",
+      "reference_number": "TXN123456",
+      "status": "completed",
+      "payment_date": "2025-08-30T00:00:00+00:00",
+      "notes": "",
+      "created_at": "2025-08-30T10:53:29.662421+00:00"
+    },
+    {
+      "id": "221650e6-79e0-429a-9c29-9f6a164cb19b",
+      "quotation_id": "e26a2d83-54d7-4c89-afc0-38a63eb5f9aa",
+      "amount": 1000,
+      "payment_method": "cash",
+      "reference_number": "TXN-002",
+      "status": "completed",
+      "payment_date": "2025-08-30T00:00:00+00:00",
+      "notes": "",
+      "created_at": "2025-08-30T10:54:10.911332+00:00"
+    },
+    {
+      "id": "a5c83fa4-2cf4-4c43-8550-ce2f35e9a2e7",
+      "quotation_id": "20600ddb-b5d2-4cb7-b9f2-0934e01bb81b",
+      "amount": 100,
+      "payment_method": "Credit Card",
+      "reference_number": null,
+      "status": "completed",
+      "payment_date": "2025-08-30T00:00:00+00:00",
+      "notes": "Partial payment test",
+      "created_at": "2025-08-30T11:09:52.000835+00:00"
+    },
+    {
+      "id": "b6d9d322-473a-41f8-adc1-7844c8754d19",
+      "quotation_id": "20600ddb-b5d2-4cb7-b9f2-0934e01bb81b",
+      "amount": 50,
+      "payment_method": "bank_transfer",
+      "reference_number": null,
+      "status": "completed",
+      "payment_date": "2025-08-30T00:00:00+00:00",
+      "notes": "Second partial payment test",
+      "created_at": "2025-08-30T11:12:26.47332+00:00"
+    },
+    {
+      "id": "002d3117-0964-469b-8cf4-e262b76ffa88",
+      "quotation_id": "20600ddb-b5d2-4cb7-b9f2-0934e01bb81b",
+      "amount": 150,
+      "payment_method": "bank_transfer",
+      "reference_number": null,
+      "status": "completed",
+      "payment_date": "2025-08-30T00:00:00+00:00",
+      "notes": "Testing validation - amount exceeds balance",
+      "created_at": "2025-08-30T11:12:48.486517+00:00"
+    }
+  ]
+}

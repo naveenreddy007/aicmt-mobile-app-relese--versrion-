@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "table": "quotations",
+    "timestamp": "2025-09-05T21-37-04",
+    "recordCount": 2,
+    "backupDate": "2025-09-05T21:37:33.063Z",
+    "schema": {
+      "table_name": "quotations",
+      "columns": []
+    }
+  },
+  "data": [
+    {
+      "id": "e26a2d83-54d7-4c89-afc0-38a63eb5f9aa",
+      "custom_order_id": "489ade99-ca60-467c-a764-5326066c5a12",
+      "bill_number": "BILL-2025-003",
+      "total_amount": 1500,
+      "received_amount": 1500,
+      "balance_amount": 0,
+      "payment_status": "paid",
+      "payment_terms": "100% advance",
+      "line_items": null,
+      "valid_until": "2025-09-29",
+      "created_at": "2025-08-30T10:52:02.949303+00:00",
+      "updated_at": "2025-08-30T10:54:10.911332+00:00"
+    },
+    {
+      "id": "20600ddb-b5d2-4cb7-b9f2-0934e01bb81b",
+      "custom_order_id": "ac29785c-13b1-4901-977c-e77f577f8f22",
+      "bill_number": "BILL-2025-004",
+      "total_amount": 250,
+      "received_amount": 300,
+      "balance_amount": -50,
+      "payment_status": "paid",
+      "payment_terms": "Net 30",
+      "line_items": null,
+      "valid_until": "2025-02-15",
+      "created_at": "2025-08-30T11:09:25.602836+00:00",
+      "updated_at": "2025-08-30T11:12:48.486517+00:00"
+    }
+  ]
+}

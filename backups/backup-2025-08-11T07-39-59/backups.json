@@ -1,0 +1,13 @@
+{
+  "metadata": {
+    "table": "backups",
+    "timestamp": "2025-08-11T07-39-59",
+    "recordCount": 0,
+    "backupDate": "2025-08-11T07:40:00.841Z",
+    "schema": {
+      "table_name": "backups",
+      "columns": []
+    }
+  },
+  "data": []
+}

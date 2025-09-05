@@ -1,0 +1,13 @@
+{
+  "metadata": {
+    "table": "cart_items",
+    "timestamp": "2025-09-05T21-37-04",
+    "recordCount": 0,
+    "backupDate": "2025-09-05T21:37:13.913Z",
+    "schema": {
+      "table_name": "cart_items",
+      "columns": []
+    }
+  },
+  "data": []
+}

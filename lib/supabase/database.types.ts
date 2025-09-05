@@ -1,0 +1,738 @@
+export type Json = string | number | boolean | null | { [key: string]: Json | undefined } | Json[]
+
+// Define the ENUM type for post_status_enum
+export type BlogPostStatus = "draft" | "published" | "archived"
+
+// Define the ENUM type for research post status
+export type PostStatusEnum = "draft" | "published" | "archived"
+
+export interface Database {
+  public: {
+    Tables: {
+      products: {
+        Row: {
+          id: string
+          name: string
+          code: string
+          category: string
+          description: string | null
+          features: Json | null
+          specifications: Json | null
+          price: string | null
+          image_url: string | null
+          is_active: boolean
+          created_at: string
+          updated_at: string
+        }
+        Insert: {
+          id?: string
+          name: string
+          code: string
+          category: string
+          description?: string | null
+          features?: Json | null
+          specifications?: Json | null
+          price?: string | null
+          image_url?: string | null
+          is_active?: boolean
+          created_at?: string
+          updated_at?: string
+        }
+        Update: {
+          id?: string
+          name?: string
+          code?: string
+          category?: string
+          description?: string | null
+          features?: Json | null
+          specifications?: Json | null
+          price?: string | null
+          image_url?: string | null
+          is_active?: boolean
+          created_at?: string
+          updated_at?: string
+        }
+      }
+      product_images: {
+        Row: {
+          id: string
+          product_id: string
+          image_url: string
+          alt_text: string | null
+          is_primary: boolean
+          display_order: number
+          created_at: string
+          updated_at: string
+        }
+        Insert: {
+          id?: string
+          product_id: string
+          image_url: string
+          alt_text?: string | null
+          is_primary?: boolean
+          display_order?: number
+          created_at?: string
+          updated_at?: string
+        }
+        Update: {
+          id?: string
+          product_id?: string
+          image_url?: string
+          alt_text?: string | null
+          is_primary?: boolean
+          display_order?: number
+          created_at?: string
+          updated_at?: string
+        }
+      }
+      blog_posts: {
+        Row: {
+          id: string
+          title: string
+          slug: string
+          content: string | null
+          excerpt: string | null
+          author_id: string | null
+          category: string | null
+          tags: string[] | null
+          status: BlogPostStatus | null
+          featured_image: string | null
+          seo_title: string | null
+          seo_description: string | null
+          seo_keywords: string[] | null
+          publish_date: string | null
+          created_at: string
+          updated_at: string
+        }
+        Insert: {
+          id?: string
+          title: string
+          slug: string
+          content?: string | null
+          excerpt?: string | null
+          author_id?: string | null
+          category?: string | null
+          tags?: string[] | null
+          status?: BlogPostStatus | null
+          featured_image_url?: string | null
+          meta_title?: string | null
+          meta_description?: string | null
+          seo_keywords?: string[] | null
+          published_at?: string | null
+          created_at?: string
+          updated_at?: string
+        }
+        Update: {
+          id?: string
+          title?: string
+          slug?: string
+          content?: string | null
+          excerpt?: string | null
+          author_id?: string | null
+          category?: string | null
+          tags?: string[] | null
+          status?: BlogPostStatus | null
+          featured_image_url?: string | null
+          meta_title?: string | null
+          meta_description?: string | null
+          seo_keywords?: string[] | null
+          published_at?: string | null
+          created_at?: string
+          updated_at?: string
+        }
+      }
+      inquiries: {
+        Row: {
+          id: string
+          name: string
+          email: string
+          company: string | null
+          phone: string | null
+          message: string
+          product_interest: string | null
+          status: string
+          priority: string
+          assigned_to: string | null
+          notes: string | null
+          created_at: string
+          updated_at: string
+        }
+        Insert: {
+          id?: string
+          name: string
+          email: string
+          company?: string | null
+          phone?: string | null
+          message: string
+          product_interest?: string | null
+          status?: string
+          priority?: string
+          assigned_to?: string | null
+          notes?: string | null
+          created_at?: string
+          updated_at?: string
+        }
+        Update: {
+          id?: string
+          name?: string
+          email?: string
+          company?: string | null
+          phone?: string | null
+          message?: string
+          product_interest?: string | null
+          status?: string
+          priority?: string
+          assigned_to?: string | null
+          notes?: string | null
+          created_at?: string
+          updated_at?: string
+        }
+      }
+      profiles: {
+        Row: {
+          id: string
+          first_name: string | null
+          last_name: string | null
+          avatar_url: string | null
+          company: string | null
+          position: string | null
+          phone: string | null
+          bio: string | null
+          role: string
+          preferences: Json
+          created_at: string
+          updated_at: string
+        }
+        Insert: {
+          id: string
+          first_name?: string | null
+          last_name?: string | null
+          avatar_url?: string | null
+          company?: string | null
+          position?: string | null
+          phone?: string | null
+          bio?: string | null
+          role?: string
+          preferences?: Json
+          created_at?: string
+          updated_at?: string
+        }
+        Update: {
+          id?: string
+          first_name?: string | null
+          last_name?: string | null
+          avatar_url?: string | null
+          company?: string | null
+          position?: string | null
+          phone?: string | null
+          bio?: string | null
+          role?: string
+          preferences?: Json
+          created_at?: string
+          updated_at?: string
+        }
+      }
+      media: {
+        Row: {
+          id: string
+          file_name: string
+          file_path: string
+          file_type: string
+          file_size: number
+          mime_type: string | null
+          dimensions: string | null
+          alt_text: string | null
+          caption: string | null
+          uploaded_by: string | null
+          created_at: string
+          updated_at: string
+        }
+        Insert: {
+          id?: string
+          file_name: string
+          file_path: string
+          file_type: string
+          file_size: number
+          mime_type?: string | null
+          dimensions?: string | null
+          alt_text?: string | null
+          caption?: string | null
+          uploaded_by?: string | null
+          created_at?: string
+          updated_at?: string
+        }
+        Update: {
+          id?: string
+          file_name?: string
+          file_path?: string
+          file_type?: string
+          file_size?: number
+          mime_type?: string | null
+          dimensions?: string | null
+          alt_text?: string | null
+          caption?: string | null
+          uploaded_by?: string | null
+          created_at?: string
+          updated_at?: string
+        }
+      }
+      seo_metadata: {
+        Row: {
+          id: string
+          page_path: string
+          title: string
+          description: string | null
+          keywords: string | null
+          og_title: string | null
+          og_description: string | null
+          og_image: string | null
+          canonical_url: string | null
+          robots: string
+          structured_data: Json | null
+          created_at: string
+          updated_at: string
+        }
+        Insert: {
+          id?: string
+          page_path: string
+          title: string
+          description?: string | null
+          keywords?: string | null
+          og_title?: string | null
+          og_description?: string | null
+          og_image?: string | null
+          canonical_url?: string | null
+          robots?: string
+          structured_data?: Json | null
+          created_at?: string
+          updated_at?: string
+        }
+        Update: {
+          id?: string
+          page_path?: string
+          title?: string
+          description?: string | null
+          keywords?: string | null
+          og_title?: string | null
+          og_description?: string | null
+          og_image?: string | null
+          canonical_url?: string | null
+          robots?: string
+          structured_data?: Json | null
+          created_at?: string
+          updated_at?: string
+        }
+      }
+      roles: {
+        Row: {
+          id: string
+          name: string
+          description: string | null
+          created_at: string
+          updated_at: string
+        }
+        Insert: {
+          id?: string
+          name: string
+          description?: string | null
+          created_at?: string
+          updated_at?: string
+        }
+        Update: {
+          id?: string
+          name?: string
+          description?: string | null
+          created_at?: string
+          updated_at?: string
+        }
+      }
+      permissions: {
+        Row: {
+          id: string
+          name: string
+          description: string | null
+          resource: string
+          action: string
+          created_at: string
+          updated_at: string
+        }
+        Insert: {
+          id?: string
+          name: string
+          description?: string | null
+          resource: string
+          action: string
+          created_at?: string
+          updated_at?: string
+        }
+        Update: {
+          id?: string
+          name?: string
+          description?: string | null
+          resource?: string
+          action?: string
+          created_at?: string
+          updated_at?: string
+        }
+      }
+      role_permissions: {
+        Row: {
+          role_id: string
+          permission_id: string
+          created_at: string
+        }
+        Insert: {
+          role_id: string
+          permission_id: string
+          created_at?: string
+        }
+        Update: {
+          role_id?: string
+          permission_id?: string
+          created_at?: string
+        }
+      }
+      backups: {
+        Row: {
+          id: string
+          filename: string
+          size: number
+          backup_type: string
+          status: string
+          storage_path: string
+          created_by: string | null
+          notes: string | null
+          created_at: string
+          updated_at: string
+        }
+        Insert: {
+          id?: string
+          filename: string
+          size: number
+          backup_type: string
+          status: string
+          storage_path: string
+          created_by?: string | null
+          notes?: string | null
+          created_at?: string
+          updated_at?: string
+        }
+        Update: {
+          id?: string
+          filename?: string
+          size?: number
+          backup_type?: string
+          status?: string
+          storage_path?: string
+          created_by?: string | null
+          notes?: string | null
+          created_at?: string
+          updated_at?: string
+        }
+      }
+      custom_orders: {
+        Row: {
+          id: string
+          product_type: string
+          size: string
+          color: string
+          thickness: string
+          printing: boolean
+          printing_colors: number | null
+          logo_url: string | null
+          quantity: number
+          company_name: string
+          contact_name: string
+          email: string
+          phone: string | null
+          timeline: string | null
+          special_requirements: string | null
+          status: string
+          quote_amount: number | null
+          quote_date: string | null
+          notes: string | null
+          created_at: string
+          updated_at: string
+        }
+        Insert: {
+          id?: string
+          product_type: string
+          size: string
+          color: string
+          thickness: string
+          printing: boolean
+          printing_colors?: number | null
+          logo_url?: string | null
+          quantity: number
+          company_name: string
+          contact_name: string
+          email: string
+          phone?: string | null
+          timeline?: string | null
+          special_requirements?: string | null
+          status?: string
+          quote_amount?: number | null
+          quote_date?: string | null
+          notes?: string | null
+          created_at?: string
+          updated_at?: string
+        }
+        Update: {
+          id?: string
+          product_type?: string
+          size?: string
+          color?: string
+          thickness?: string
+          printing?: boolean
+          printing_colors?: number | null
+          logo_url?: string | null
+          quantity?: number
+          company_name?: string
+          contact_name?: string
+          email?: string
+          phone?: string | null
+          timeline?: string | null
+          special_requirements?: string | null
+          status?: string
+          quote_amount?: number | null
+          quote_date?: string | null
+          notes?: string | null
+          created_at?: string
+          updated_at?: string
+        }
+      }
+      reviews: {
+        Row: {
+          id: string
+          product_id: string
+          user_id: string | null
+          name: string
+          email: string
+          rating: number
+          title: string
+          content: string
+          status: string
+          is_verified_purchase: boolean
+          helpful_count: number
+          created_at: string
+          updated_at: string
+        }
+        Insert: {
+          id?: string
+          product_id: string
+          user_id?: string | null
+          name: string
+          email: string
+          rating: number
+          title: string
+          content: string
+          status?: string
+          is_verified_purchase?: boolean
+          helpful_count?: number
+          created_at?: string
+          updated_at?: string
+        }
+        Update: {
+          id?: string
+          product_id?: string
+          user_id?: string | null
+          name?: string
+          email?: string
+          rating?: number
+          title?: string
+          content?: string
+          status?: string
+          is_verified_purchase?: boolean
+          helpful_count?: number
+          created_at?: string
+          updated_at?: string
+        }
+      }
+      review_images: {
+        Row: {
+          id: string
+          review_id: string
+          image_url: string
+          created_at: string
+        }
+        Insert: {
+          id?: string
+          review_id: string
+          image_url: string
+          created_at?: string
+        }
+        Update: {
+          id?: string
+          review_id?: string
+          image_url?: string
+          created_at?: string
+        }
+      }
+      review_responses: {
+        Row: {
+          id: string
+          review_id: string
+          admin_id: string | null
+          content: string
+          created_at: string
+          updated_at: string
+        }
+        Insert: {
+          id?: string
+          review_id: string
+          admin_id?: string | null
+          content: string
+          created_at?: string
+          updated_at?: string
+        }
+        Update: {
+          id?: string
+          review_id?: string
+          admin_id?: string | null
+          content?: string
+          created_at?: string
+          updated_at?: string
+        }
+      }
+      newsletter_subscriptions: {
+        Row: {
+          id: string
+          email: string
+          is_subscribed: boolean
+          subscribed_at: string
+          unsubscribed_at: string | null
+          source: string | null
+          created_at: string
+          updated_at: string
+        }
+        Insert: {
+          id?: string
+          email: string
+          is_subscribed?: boolean
+          subscribed_at?: string
+          unsubscribed_at?: string | null
+          source?: string | null
+          created_at?: string
+          updated_at?: string
+        }
+        Update: {
+          id?: string
+          email?: string
+          is_subscribed?: boolean
+          subscribed_at?: string
+          unsubscribed_at?: string | null
+          source?: string | null
+          created_at?: string
+          updated_at?: string
+        }
+      }
+      // New Tables for Innovation Hub / Research
+      categories: {
+        Row: {
+          id: number // bigserial maps to number
+          name: string
+          slug: string
+          description: string | null
+          created_at: string
+          updated_at: string
+        }
+        Insert: {
+          id?: number
+          name: string
+          slug: string
+          description?: string | null
+          created_at?: string
+          updated_at?: string
+        }
+        Update: {
+          id?: number
+          name?: string
+          slug?: string
+          description?: string | null
+          created_at?: string
+          updated_at?: string
+        }
+      }
+      tags: {
+        Row: {
+          id: number // bigserial maps to number
+          name: string
+          created_at: string
+        }
+        Insert: {
+          id?: number
+          name: string
+          created_at?: string
+        }
+        Update: {
+          id?: number
+          name?: string
+          created_at?: string
+        }
+      }
+      research_posts: {
+        Row: {
+          id: string // uuid
+          created_at: string
+          updated_at: string
+          title: string
+          slug: string
+          content: Json | null // Assuming jsonb for block editor, or string for Markdown
+          excerpt: string | null
+          featured_image_url: string | null
+          status: PostStatusEnum // Using the defined ENUM type
+          author_id: string | null // uuid, FK to profiles.id
+          category_id: number | null // FK to categories.id
+          published_at: string | null
+        }
+        Insert: {
+          id?: string // uuid
+          created_at?: string
+          updated_at?: string
+          title: string
+          slug: string
+          content?: Json | null
+          excerpt?: string | null
+          featured_image_url?: string | null
+          status?: PostStatusEnum
+          author_id?: string | null
+          category_id?: number | null
+          published_at?: string | null
+        }
+        Update: {
+          id?: string // uuid
+          created_at?: string
+          updated_at?: string
+          title?: string
+          slug?: string
+          content?: Json | null
+          excerpt?: string | null
+          featured_image_url?: string | null
+          status?: PostStatusEnum
+          author_id?: string | null
+          category_id?: number | null
+          published_at?: string | null
+        }
+      }
+      research_post_tags: {
+        Row: {
+          post_id: string // uuid, FK to research_posts.id
+          tag_id: number // FK to tags.id
+        }
+        Insert: {
+          post_id: string
+          tag_id: number
+        }
+        Update: {
+          post_id?: string
+          tag_id?: number
+        }
+      }
+    }
+    // ... Enums, Functions, etc. ...
+    Enums: {
+      post_status_enum: BlogPostStatus // Ensure this matches your DB enum name
+      post_status_enum_research: PostStatusEnum
+    }
+  }
+}

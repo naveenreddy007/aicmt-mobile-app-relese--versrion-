@@ -1,0 +1,13 @@
+{
+  "metadata": {
+    "table": "review_responses",
+    "timestamp": "2025-09-05T21-37-04",
+    "recordCount": 0,
+    "backupDate": "2025-09-05T21:37:34.882Z",
+    "schema": {
+      "table_name": "review_responses",
+      "columns": []
+    }
+  },
+  "data": []
+}

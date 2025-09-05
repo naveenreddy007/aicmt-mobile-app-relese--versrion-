@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "table": "events",
+    "timestamp": "2025-09-05T21-37-04",
+    "recordCount": 7,
+    "backupDate": "2025-09-05T21:37:16.768Z",
+    "schema": {
+      "table_name": "events",
+      "columns": []
+    }
+  },
+  "data": [
+    {
+      "id": "87f24868-601c-451f-9c2f-197d70287c30",
+      "title": "Sustainable Packaging Summit 2024",
+      "description": "Join us at the annual sustainable packaging summit to discuss the future of eco-friendly packaging solutions.",
+      "content": "A comprehensive event covering the latest trends in sustainable packaging, featuring industry experts and innovative solutions.",
+      "event_date": "2024-09-15T10:00:00+00:00",
+      "location": "Mumbai, India",
+      "image_url": "/images/events/packaging-summit-2024.jpg",
+      "is_featured": true,
+      "is_active": true,
+      "created_at": "2025-08-11T10:45:14.334285+00:00",
+      "updated_at": "2025-08-11T10:45:14.334285+00:00"
+    },
+    {
+      "id": "ce80f3e9-0a3d-47ca-9b78-a5cf189407f9",
+      "title": "Green Technology Expo",
+      "description": "Showcasing cutting-edge green technologies and sustainable innovations.",
+      "content": "An exhibition featuring the latest in green technology, sustainable materials, and eco-friendly manufacturing processes.",
+      "event_date": "2024-10-20T09:00:00+00:00",
+      "location": "Delhi, India",
+      "image_url": "/images/events/green-tech-expo.jpg",
+      "is_featured": true,
+      "is_active": true,
+      "created_at": "2025-08-11T10:45:14.334285+00:00",
+      "updated_at": "2025-08-11T10:45:14.334285+00:00"
+    },
+    {
+      "id": "e19f8223-df6e-4b37-bc93-1ed4c052d346",
+      "title": "Biodegradable Materials Workshop",
+      "description": "Hands-on workshop on biodegradable materials and their applications.",
+      "content": "Interactive workshop covering the science behind biodegradable materials and their practical applications in various industries.",
+      "event_date": "2024-11-12T14:00:00+00:00",
+      "location": "Bangalore, India",
+      "image_url": "/images/events/biodegradable-workshop.jpg",
+      "is_featured": false,
+      "is_active": true,
+      "created_at": "2025-08-11T10:45:14.334285+00:00",
+      "updated_at": "2025-08-11T10:45:14.334285+00:00"
+    },
+    {
+      "id": "4955b524-21ef-40fd-826a-2181aeb665be",
+      "title": "fd",
+      "description": "erg",
+      "content": null,
+      "event_date": "2025-08-30T22:24:00+00:00",
+      "location": "eg",
+      "image_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQUAAACUCAMAAACtBczxAAAA8FBMVEX///8hGRb+/v4AAADspx7OJyH19fUcFBEIAADe3d2vr68fFhOjo6O+vr6dnJwhGBgXExSpo6REQkK8uLrW19Q/NjeSkpLs7OwkHR8WDAZkZGTv1ZT9+/PooADJyMjl5eUgICEwLC0XCgt1dHSDg4Pz19bVZWHKFAlOTk5bW1tsbGw9OzvIAADypCDMNDH36MhkWl3v4rDz2KL79OTkpaLsxr/slQDuuVr13L3UXVnYh4HqwGDUjobvwnLkqR3rxHzNQUHeq6nsrTvw4uPObW7Ze3TvyLDmnEHbVzrmiRXXRyDQTh7nvb7hkBfnt4fXXEvJJ7UvAAASKUlEQVR4nO2dDXujtpaACSQywoAzmEGBJsIYZQJ40mYn7c5td7ttb2/v7r3b3f3//2bPEV/iw45jM8k8Mz7tE9sgpKOXo6OjDxhNO8lJTnKSk5zkJCc5yUlOcpKTnOQkX7PolVyPH34dpV5c9Gt9pMr44/orwgBWcI0oOjXWNUIaOK+o3EsJQPiXD49Y4+tOfW+//4F8PRTADL75149/eZQNQDl8++PdT7fka6GgI4X7m3/77hHahXL89t3799/++y3B1vE1gLj+5ub8/Obm5+8UN6kDhbuLC8mhOqp92WYBFO7P7+9v/uMXsIcuhYuLu1+/bzjo2pdOAeXm/Je/XFeRQk0B7OHH337Xy6NfOIXzc8nhHjg8Yr+pUri4Qw5E+/JbBAAAkRz++kH6B4VCxUE2i9fW9dNJ0yKkRdzc/PWb7661DgXgcPe3P3//ojsLhUKJ4ubjh8frLgVwDxd/lBy+UIsYUAB7+Pjh7+8ueoIcmPaltosBBfAQ9+f/+V99Chg+/PSDDKO+QOlTOJd+8h//HFKQYdSf5GuggAzut1FADr+RfXLdheo1GpW+8+eYX8A28T//PQrh7tef/tyLgkb4iPg0ZvtdfojE3GmF9m",
+      "is_featured": false,
+      "is_active": true,
+      "created_at": "2025-08-11T11:50:27.455918+00:00",
+      "updated_at": "2025-08-11T11:50:27.455918+00:00"
+    },
+    {
+      "id": "477b874e-74bd-4bcb-a03c-82de03d12de7",
+      "title": "Sustainable Packaging Summit 2024",
+      "description": "Join us at the annual sustainable packaging summit to discuss the future of eco-friendly packaging solutions.",
+      "content": "A comprehensive event covering the latest trends in sustainable packaging, featuring industry experts and innovative solutions.",
+      "event_date": "2024-09-15T10:00:00+00:00",
+      "location": "Mumbai, India",
+      "image_url": "/images/events/packaging-summit-2024.jpg",
+      "is_featured": true,
+      "is_active": true,
+      "created_at": "2025-08-31T06:53:51.439929+00:00",
+      "updated_at": "2025-08-31T06:53:51.439929+00:00"
+    },
+    {
+      "id": "1db16064-1298-470e-9379-9ab5b036b305",
+      "title": "Green Technology Expo",
+      "description": "Showcasing cutting-edge green technologies and sustainable innovations.",
+      "content": "An exhibition featuring the latest in green technology, sustainable materials, and eco-friendly manufacturing processes.",
+      "event_date": "2024-10-20T09:00:00+00:00",
+      "location": "Delhi, India",
+      "image_url": "/images/events/green-tech-expo.jpg",
+      "is_featured": true,
+      "is_active": true,
+      "created_at": "2025-08-31T06:53:51.439929+00:00",
+      "updated_at": "2025-08-31T06:53:51.439929+00:00"
+    },
+    {
+      "id": "cf78a302-d396-4418-abbf-08980c6b5270",
+      "title": "Biodegradable Materials Workshop",
+      "description": "Hands-on workshop on biodegradable materials and their applications.",
+      "content": "Interactive workshop covering the science behind biodegradable materials and their practical applications in various industries.",
+      "event_date": "2024-11-12T14:00:00+00:00",
+      "location": "Bangalore, India",
+      "image_url": "/images/events/biodegradable-workshop.jpg",
+      "is_featured": false,
+      "is_active": true,
+      "created_at": "2025-08-31T06:53:51.439929+00:00",
+      "updated_at": "2025-08-31T06:53:51.439929+00:00"
+    }
+  ]
+}

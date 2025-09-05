@@ -1,0 +1,135 @@
+{
+  "timestamp": "2025-08-11T07-39-59",
+  "totalTables": 21,
+  "successfulBackups": 21,
+  "failedBackups": 0,
+  "totalRecords": 113,
+  "results": [
+    {
+      "table": "analytics",
+      "success": true,
+      "recordCount": 14,
+      "filePath": "C:\\Users\\bilva_labs\\Music\\aicmt-mobile-app (1)\\backups\\backup-2025-08-11T07-39-59\\analytics.json"
+    },
+    {
+      "table": "backups",
+      "success": true,
+      "recordCount": 0,
+      "filePath": "C:\\Users\\bilva_labs\\Music\\aicmt-mobile-app (1)\\backups\\backup-2025-08-11T07-39-59\\backups.json"
+    },
+    {
+      "table": "blog_categories",
+      "success": true,
+      "recordCount": 0,
+      "filePath": "C:\\Users\\bilva_labs\\Music\\aicmt-mobile-app (1)\\backups\\backup-2025-08-11T07-39-59\\blog_categories.json"
+    },
+    {
+      "table": "blog_comments",
+      "success": true,
+      "recordCount": 0,
+      "filePath": "C:\\Users\\bilva_labs\\Music\\aicmt-mobile-app (1)\\backups\\backup-2025-08-11T07-39-59\\blog_comments.json"
+    },
+    {
+      "table": "blog_post_likes",
+      "success": true,
+      "recordCount": 0,
+      "filePath": "C:\\Users\\bilva_labs\\Music\\aicmt-mobile-app (1)\\backups\\backup-2025-08-11T07-39-59\\blog_post_likes.json"
+    },
+    {
+      "table": "blog_post_tags",
+      "success": true,
+      "recordCount": 4,
+      "filePath": "C:\\Users\\bilva_labs\\Music\\aicmt-mobile-app (1)\\backups\\backup-2025-08-11T07-39-59\\blog_post_tags.json"
+    },
+    {
+      "table": "blog_posts",
+      "success": true,
+      "recordCount": 1,
+      "filePath": "C:\\Users\\bilva_labs\\Music\\aicmt-mobile-app (1)\\backups\\backup-2025-08-11T07-39-59\\blog_posts.json"
+    },
+    {
+      "table": "blog_tags",
+      "success": true,
+      "recordCount": 0,
+      "filePath": "C:\\Users\\bilva_labs\\Music\\aicmt-mobile-app (1)\\backups\\backup-2025-08-11T07-39-59\\blog_tags.json"
+    },
+    {
+      "table": "custom_orders",
+      "success": true,
+      "recordCount": 4,
+      "filePath": "C:\\Users\\bilva_labs\\Music\\aicmt-mobile-app (1)\\backups\\backup-2025-08-11T07-39-59\\custom_orders.json"
+    },
+    {
+      "table": "inquiries",
+      "success": true,
+      "recordCount": 2,
+      "filePath": "C:\\Users\\bilva_labs\\Music\\aicmt-mobile-app (1)\\backups\\backup-2025-08-11T07-39-59\\inquiries.json"
+    },
+    {
+      "table": "media",
+      "success": true,
+      "recordCount": 0,
+      "filePath": "C:\\Users\\bilva_labs\\Music\\aicmt-mobile-app (1)\\backups\\backup-2025-08-11T07-39-59\\media.json"
+    },
+    {
+      "table": "permissions",
+      "success": true,
+      "recordCount": 19,
+      "filePath": "C:\\Users\\bilva_labs\\Music\\aicmt-mobile-app (1)\\backups\\backup-2025-08-11T07-39-59\\permissions.json"
+    },
+    {
+      "table": "product_images",
+      "success": true,
+      "recordCount": 9,
+      "filePath": "C:\\Users\\bilva_labs\\Music\\aicmt-mobile-app (1)\\backups\\backup-2025-08-11T07-39-59\\product_images.json"
+    },
+    {
+      "table": "products",
+      "success": true,
+      "recordCount": 16,
+      "filePath": "C:\\Users\\bilva_labs\\Music\\aicmt-mobile-app (1)\\backups\\backup-2025-08-11T07-39-59\\products.json"
+    },
+    {
+      "table": "profiles",
+      "success": true,
+      "recordCount": 1,
+      "filePath": "C:\\Users\\bilva_labs\\Music\\aicmt-mobile-app (1)\\backups\\backup-2025-08-11T07-39-59\\profiles.json"
+    },
+    {
+      "table": "review_images",
+      "success": true,
+      "recordCount": 0,
+      "filePath": "C:\\Users\\bilva_labs\\Music\\aicmt-mobile-app (1)\\backups\\backup-2025-08-11T07-39-59\\review_images.json"
+    },
+    {
+      "table": "review_responses",
+      "success": true,
+      "recordCount": 0,
+      "filePath": "C:\\Users\\bilva_labs\\Music\\aicmt-mobile-app (1)\\backups\\backup-2025-08-11T07-39-59\\review_responses.json"
+    },
+    {
+      "table": "reviews",
+      "success": true,
+      "recordCount": 2,
+      "filePath": "C:\\Users\\bilva_labs\\Music\\aicmt-mobile-app (1)\\backups\\backup-2025-08-11T07-39-59\\reviews.json"
+    },
+    {
+      "table": "role_permissions",
+      "success": true,
+      "recordCount": 38,
+      "filePath": "C:\\Users\\bilva_labs\\Music\\aicmt-mobile-app (1)\\backups\\backup-2025-08-11T07-39-59\\role_permissions.json"
+    },
+    {
+      "table": "roles",
+      "success": true,
+      "recordCount": 3,
+      "filePath": "C:\\Users\\bilva_labs\\Music\\aicmt-mobile-app (1)\\backups\\backup-2025-08-11T07-39-59\\roles.json"
+    },
+    {
+      "table": "seo_metadata",
+      "success": true,
+      "recordCount": 0,
+      "filePath": "C:\\Users\\bilva_labs\\Music\\aicmt-mobile-app (1)\\backups\\backup-2025-08-11T07-39-59\\seo_metadata.json"
+    }
+  ]
+}

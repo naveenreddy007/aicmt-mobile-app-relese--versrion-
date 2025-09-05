@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "table": "blog_categories",
+    "timestamp": "2025-09-05T21-37-04",
+    "recordCount": 1,
+    "backupDate": "2025-09-05T21:37:08.292Z",
+    "schema": {
+      "table_name": "blog_categories",
+      "columns": []
+    }
+  },
+  "data": [
+    {
+      "id": "8440edcb-6ade-484d-adf7-9e926f3ff929",
+      "name": "ridhi",
+      "slug": "ridhi",
+      "description": "",
+      "color": "#10B981",
+      "created_at": "2025-08-11T12:47:56.132852+00:00",
+      "updated_at": "2025-08-11T12:47:56.132852+00:00"
+    }
+  ]
+}

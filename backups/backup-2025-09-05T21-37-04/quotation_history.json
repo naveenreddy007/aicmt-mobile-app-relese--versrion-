@@ -1,0 +1,13 @@
+{
+  "metadata": {
+    "table": "quotation_history",
+    "timestamp": "2025-09-05T21-37-04",
+    "recordCount": 0,
+    "backupDate": "2025-09-05T21:37:32.172Z",
+    "schema": {
+      "table_name": "quotation_history",
+      "columns": []
+    }
+  },
+  "data": []
+}

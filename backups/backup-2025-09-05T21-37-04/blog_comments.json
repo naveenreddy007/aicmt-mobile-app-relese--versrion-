@@ -1,0 +1,13 @@
+{
+  "metadata": {
+    "table": "blog_comments",
+    "timestamp": "2025-09-05T21-37-04",
+    "recordCount": 0,
+    "backupDate": "2025-09-05T21:37:09.144Z",
+    "schema": {
+      "table_name": "blog_comments",
+      "columns": []
+    }
+  },
+  "data": []
+}

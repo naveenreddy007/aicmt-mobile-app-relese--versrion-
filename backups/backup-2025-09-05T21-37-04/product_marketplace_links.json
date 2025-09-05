@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "table": "product_marketplace_links",
+    "timestamp": "2025-09-05T21-37-04",
+    "recordCount": 3,
+    "backupDate": "2025-09-05T21:37:28.482Z",
+    "schema": {
+      "table_name": "product_marketplace_links",
+      "columns": []
+    }
+  },
+  "data": [
+    {
+      "id": "65357800-fea6-423c-882e-8fb9942bd795",
+      "product_id": "bfc3dd64-c744-4c6f-9ec6-4d089d74b609",
+      "marketplace_name": "Flipkart",
+      "marketplace_url": "https://flipkart.com/search?q=sample-product",
+      "logo_url": "https://img1a.flixcart.com/www/linchpin/fk-cp-zion/img/flipkart-plus_8d85f4.png",
+      "display_order": 2,
+      "is_active": true,
+      "created_at": "2025-08-30T06:49:22.565232+00:00",
+      "updated_at": "2025-08-30T06:49:22.565232+00:00"
+    },
+    {
+      "id": "5e315fb4-e81a-495b-848b-aac2ee1efbfd",
+      "product_id": "bfc3dd64-c744-4c6f-9ec6-4d089d74b609",
+      "marketplace_name": "Zepto",
+      "marketplace_url": "https://zepto.com/search?q=sample-product",
+      "logo_url": "https://cdn.zeptonow.com/web-static-assets-prod/artifacts/9b4b6d7d8b8c8f8e8d8c8f8e8d8c8f8e.svg",
+      "display_order": 3,
+      "is_active": true,
+      "created_at": "2025-08-30T06:49:22.565232+00:00",
+      "updated_at": "2025-08-30T06:49:22.565232+00:00"
+    },
+    {
+      "id": "7952b5e3-fc62-4ae7-8999-104e33724414",
+      "product_id": "bfc3dd64-c744-4c6f-9ec6-4d089d74b609",
+      "marketplace_name": "Myntra",
+      "marketplace_url": "https://myntra.com/search?q=sample-product",
+      "logo_url": "https://constant.myntassets.com/web/assets/img/MyntraWebSprite_27_01_2021.png",
+      "display_order": 4,
+      "is_active": false,
+      "created_at": "2025-08-30T06:49:22.565232+00:00",
+      "updated_at": "2025-08-30T06:49:22.565232+00:00"
+    }
+  ]
+}

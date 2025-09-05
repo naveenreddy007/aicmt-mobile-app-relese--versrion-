@@ -1,0 +1,13 @@
+{
+  "metadata": {
+    "table": "orders",
+    "timestamp": "2025-09-05T21-37-04",
+    "recordCount": 0,
+    "backupDate": "2025-09-05T21:37:24.728Z",
+    "schema": {
+      "table_name": "orders",
+      "columns": []
+    }
+  },
+  "data": []
+}

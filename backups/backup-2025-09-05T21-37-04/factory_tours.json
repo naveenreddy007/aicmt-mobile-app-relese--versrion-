@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "table": "factory_tours",
+    "timestamp": "2025-09-05T21-37-04",
+    "recordCount": 3,
+    "backupDate": "2025-09-05T21:37:17.763Z",
+    "schema": {
+      "table_name": "factory_tours",
+      "columns": []
+    }
+  },
+  "data": [
+    {
+      "id": "5d7ba693-934c-497e-b6f6-013fa976e3a8",
+      "title": "testing",
+      "description": null,
+      "video_type": "url",
+      "video_file_path": null,
+      "video_url": "https://youtu.be/PdqoICDn0PQ?si=dw3iNR_It9EDjZbw",
+      "thumbnail_image": null,
+      "display_order": 1,
+      "is_active": true,
+      "created_at": "2025-08-19T11:36:59.827527+00:00",
+      "updated_at": "2025-08-19T11:36:59.827527+00:00"
+    },
+    {
+      "id": "d6432691-e161-4315-85f8-53ddf2721cb0",
+      "title": "AICMT International Factory Tour",
+      "description": "Take a virtual tour of our state-of-the-art manufacturing facility and see how we create innovative products.",
+      "video_type": "url",
+      "video_file_path": null,
+      "video_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "thumbnail_image": null,
+      "display_order": 1,
+      "is_active": true,
+      "created_at": "2025-08-19T12:22:14.12978+00:00",
+      "updated_at": "2025-08-19T12:22:14.12978+00:00"
+    },
+    {
+      "id": "c44e7c5d-5283-45b5-811b-5571be80b177",
+      "title": "AICMT International Factory Tour",
+      "description": "Take a virtual tour of our state-of-the-art manufacturing facility and see how we create innovative products.",
+      "video_type": "url",
+      "video_file_path": null,
+      "video_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "thumbnail_image": null,
+      "display_order": 1,
+      "is_active": true,
+      "created_at": "2025-08-19T12:56:14.301354+00:00",
+      "updated_at": "2025-08-19T12:56:14.301354+00:00"
+    }
+  ]
+}

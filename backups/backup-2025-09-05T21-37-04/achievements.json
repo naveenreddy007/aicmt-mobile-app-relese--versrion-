@@ -1,0 +1,218 @@
+{
+  "metadata": {
+    "table": "achievements",
+    "timestamp": "2025-09-05T21-37-04",
+    "recordCount": 17,
+    "backupDate": "2025-09-05T21:37:05.503Z",
+    "schema": {
+      "table_name": "achievements",
+      "columns": []
+    }
+  },
+  "data": [
+    {
+      "id": "41b3c300-a649-4b04-aec2-f04310fef6f2",
+      "title": "ISO 14001:2015 Environmental Management Certification",
+      "description": "Internationally recognized certification for environmental management systems, demonstrating our commitment to reducing environmental impact.",
+      "image_url": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=ISO%2014001%20environmental%20management%20certification%20award%20ceremony%20business%20achievement&image_size=landscape_16_9",
+      "year": "2019",
+      "category": null,
+      "display_order": 1,
+      "is_active": true,
+      "created_at": "2025-08-14T17:53:39.248223+00:00",
+      "updated_at": "2025-08-14T17:53:39.248223+00:00"
+    },
+    {
+      "id": "520e940c-3d24-4f90-a150-bcc27ca07808",
+      "title": "B-Corporation Certification",
+      "description": "Certified B-Corp meeting highest standards of verified social and environmental performance, public transparency, and legal accountability.",
+      "image_url": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=B%20Corporation%20certification%20social%20environmental%20performance%20sustainable%20business&image_size=landscape_16_9",
+      "year": "2023",
+      "category": null,
+      "display_order": 2,
+      "is_active": true,
+      "created_at": "2025-08-14T17:53:39.248223+00:00",
+      "updated_at": "2025-08-14T17:53:39.248223+00:00"
+    },
+    {
+      "id": "5d323723-29ac-4b09-9bb8-cb6c27118e88",
+      "title": "Asia Packaging Innovation Award 2023",
+      "description": "Recognized for breakthrough biodegradable packaging technology that reduces plastic waste by 95% compared to traditional alternatives.",
+      "image_url": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=packaging%20innovation%20award%20trophy%20ceremony%20industry%20recognition%20sustainable%20materials&image_size=landscape_16_9",
+      "year": "2023",
+      "category": null,
+      "display_order": 3,
+      "is_active": true,
+      "created_at": "2025-08-14T17:53:39.248223+00:00",
+      "updated_at": "2025-08-14T17:53:39.248223+00:00"
+    },
+    {
+      "id": "3ee73e83-b70c-4f28-b9ae-78055c7468fe",
+      "title": "Carbon Neutral Certification",
+      "description": "Achieved carbon neutrality across all operations through renewable energy adoption and verified carbon offset programs.",
+      "image_url": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=carbon%20neutral%20certification%20renewable%20energy%20environmental%20sustainability&image_size=landscape_16_9",
+      "year": "2022",
+      "category": null,
+      "display_order": 4,
+      "is_active": true,
+      "created_at": "2025-08-14T17:53:39.248223+00:00",
+      "updated_at": "2025-08-14T17:53:39.248223+00:00"
+    },
+    {
+      "id": "a2612101-0242-4dce-ae81-94ef10b0be22",
+      "title": "ISO 14001:2015 Environmental Management Certification",
+      "description": "Internationally recognized certification for environmental management systems, demonstrating our commitment to reducing environmental impact.",
+      "image_url": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=ISO%2014001%20environmental%20management%20certification%20award%20ceremony%20business%20achievement&image_size=landscape_16_9",
+      "year": "2019",
+      "category": null,
+      "display_order": 1,
+      "is_active": true,
+      "created_at": "2025-08-14T17:56:33.99077+00:00",
+      "updated_at": "2025-08-14T17:56:33.99077+00:00"
+    },
+    {
+      "id": "d0506981-1774-4407-a6cf-5b2cfbdd1f2f",
+      "title": "B-Corporation Certification",
+      "description": "Certified B-Corp meeting highest standards of verified social and environmental performance, public transparency, and legal accountability.",
+      "image_url": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=B%20Corporation%20certification%20social%20environmental%20performance%20sustainable%20business&image_size=landscape_16_9",
+      "year": "2023",
+      "category": null,
+      "display_order": 2,
+      "is_active": true,
+      "created_at": "2025-08-14T17:56:33.99077+00:00",
+      "updated_at": "2025-08-14T17:56:33.99077+00:00"
+    },
+    {
+      "id": "a98576d3-2f97-4a3e-a7a6-33a02c0238f1",
+      "title": "Asia Packaging Innovation Award 2023",
+      "description": "Recognized for breakthrough biodegradable packaging technology that reduces plastic waste by 95% compared to traditional alternatives.",
+      "image_url": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=packaging%20innovation%20award%20trophy%20ceremony%20industry%20recognition%20sustainable%20materials&image_size=landscape_16_9",
+      "year": "2023",
+      "category": null,
+      "display_order": 3,
+      "is_active": true,
+      "created_at": "2025-08-14T17:56:33.99077+00:00",
+      "updated_at": "2025-08-14T17:56:33.99077+00:00"
+    },
+    {
+      "id": "bee11155-536c-45da-a2df-66d200d5e0bb",
+      "title": "Carbon Neutral Certification",
+      "description": "Achieved carbon neutrality across all operations through renewable energy adoption and verified carbon offset programs.",
+      "image_url": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=carbon%20neutral%20certification%20renewable%20energy%20environmental%20sustainability&image_size=landscape_16_9",
+      "year": "2022",
+      "category": null,
+      "display_order": 4,
+      "is_active": true,
+      "created_at": "2025-08-14T17:56:33.99077+00:00",
+      "updated_at": "2025-08-14T17:56:33.99077+00:00"
+    },
+    {
+      "id": "9f4165f2-6968-4d04-adaf-63e9aaeec1af",
+      "title": "ISO 14001:2015 Environmental Management Certification",
+      "description": "Internationally recognized certification for environmental management systems, demonstrating our commitment to reducing environmental impact.",
+      "image_url": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=ISO%2014001%20environmental%20management%20certification%20award%20ceremony%20business%20achievement&image_size=landscape_16_9",
+      "year": "2019",
+      "category": null,
+      "display_order": 1,
+      "is_active": true,
+      "created_at": "2025-08-14T17:57:18.397849+00:00",
+      "updated_at": "2025-08-14T17:57:18.397849+00:00"
+    },
+    {
+      "id": "ada5cfff-4da6-4ed8-b612-7a281e6d2204",
+      "title": "B-Corporation Certification",
+      "description": "Certified B-Corp meeting highest standards of verified social and environmental performance, public transparency, and legal accountability.",
+      "image_url": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=B%20Corporation%20certification%20social%20environmental%20performance%20sustainable%20business&image_size=landscape_16_9",
+      "year": "2023",
+      "category": null,
+      "display_order": 2,
+      "is_active": true,
+      "created_at": "2025-08-14T17:57:18.397849+00:00",
+      "updated_at": "2025-08-14T17:57:18.397849+00:00"
+    },
+    {
+      "id": "dbdcdba1-17c8-4056-9a73-3c9be19653b2",
+      "title": "Asia Packaging Innovation Award 2023",
+      "description": "Recognized for breakthrough biodegradable packaging technology that reduces plastic waste by 95% compared to traditional alternatives.",
+      "image_url": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=packaging%20innovation%20award%20trophy%20ceremony%20industry%20recognition%20sustainable%20materials&image_size=landscape_16_9",
+      "year": "2023",
+      "category": null,
+      "display_order": 3,
+      "is_active": true,
+      "created_at": "2025-08-14T17:57:18.397849+00:00",
+      "updated_at": "2025-08-14T17:57:18.397849+00:00"
+    },
+    {
+      "id": "21409e7b-4bc0-442e-94dc-c61d410c50a6",
+      "title": "Carbon Neutral Certification",
+      "description": "Achieved carbon neutrality across all operations through renewable energy adoption and verified carbon offset programs.",
+      "image_url": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=carbon%20neutral%20certification%20renewable%20energy%20environmental%20sustainability&image_size=landscape_16_9",
+      "year": "2022",
+      "category": null,
+      "display_order": 4,
+      "is_active": true,
+      "created_at": "2025-08-14T17:57:18.397849+00:00",
+      "updated_at": "2025-08-14T17:57:18.397849+00:00"
+    },
+    {
+      "id": "02b62396-3f22-4be1-be81-ae58eac18a11",
+      "title": "ISO 14001:2015 Environmental Management Certification",
+      "description": "Internationally recognized certification for environmental management systems, demonstrating our commitment to reducing environmental impact.",
+      "image_url": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=ISO%2014001%20environmental%20management%20certification%20award%20ceremony%20business%20achievement&image_size=landscape_16_9",
+      "year": "2019",
+      "category": null,
+      "display_order": 1,
+      "is_active": true,
+      "created_at": "2025-08-14T17:59:14.51193+00:00",
+      "updated_at": "2025-08-14T17:59:14.51193+00:00"
+    },
+    {
+      "id": "6144023a-5f22-4cf9-b3e6-6ee91e89376a",
+      "title": "B-Corporation Certification",
+      "description": "Certified B-Corp meeting highest standards of verified social and environmental performance, public transparency, and legal accountability.",
+      "image_url": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=B%20Corporation%20certification%20social%20environmental%20performance%20sustainable%20business&image_size=landscape_16_9",
+      "year": "2023",
+      "category": null,
+      "display_order": 2,
+      "is_active": true,
+      "created_at": "2025-08-14T17:59:14.51193+00:00",
+      "updated_at": "2025-08-14T17:59:14.51193+00:00"
+    },
+    {
+      "id": "55bba307-8d53-4239-ab0b-a088c1d907ce",
+      "title": "Asia Packaging Innovation Award 2023",
+      "description": "Recognized for breakthrough biodegradable packaging technology that reduces plastic waste by 95% compared to traditional alternatives.",
+      "image_url": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=packaging%20innovation%20award%20trophy%20ceremony%20industry%20recognition%20sustainable%20materials&image_size=landscape_16_9",
+      "year": "2023",
+      "category": null,
+      "display_order": 3,
+      "is_active": true,
+      "created_at": "2025-08-14T17:59:14.51193+00:00",
+      "updated_at": "2025-08-14T17:59:14.51193+00:00"
+    },
+    {
+      "id": "3b47120e-2879-435f-afe9-4ae1ca62f4d6",
+      "title": "Carbon Neutral Certification",
+      "description": "Achieved carbon neutrality across all operations through renewable energy adoption and verified carbon offset programs.",
+      "image_url": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=carbon%20neutral%20certification%20renewable%20energy%20environmental%20sustainability&image_size=landscape_16_9",
+      "year": "2022",
+      "category": null,
+      "display_order": 4,
+      "is_active": true,
+      "created_at": "2025-08-14T17:59:14.51193+00:00",
+      "updated_at": "2025-08-14T17:59:14.51193+00:00"
+    },
+    {
+      "id": "a33360b3-2079-465d-a54f-b44616aa1eaa",
+      "title": "gr ry 4yw22",
+      "description": "e 65ut rte 6e6e e6uerth ey eyj",
+      "image_url": "https://ylqpagsrjmoelausmtku.supabase.co/storage/v1/object/public/media-library/uploads/1755077514471-mywd7e5s9oq.jpg",
+      "year": "2024",
+      "category": "award",
+      "display_order": 0,
+      "is_active": false,
+      "created_at": "2025-08-17T07:12:40.974479+00:00",
+      "updated_at": "2025-08-17T07:12:40.974479+00:00"
+    }
+  ]
+}

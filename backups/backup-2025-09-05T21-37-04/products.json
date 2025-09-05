@@ -1,0 +1,725 @@
+{
+  "metadata": {
+    "table": "products",
+    "timestamp": "2025-09-05T21-37-04",
+    "recordCount": 24,
+    "backupDate": "2025-09-05T21:37:29.446Z",
+    "schema": {
+      "table_name": "products",
+      "columns": []
+    }
+  },
+  "data": [
+    {
+      "id": "bfc3dd64-c744-4c6f-9ec6-4d089d74b609",
+      "name": "Biodegradable Shopping Bags",
+      "code": "BSB-001",
+      "category": "Bags",
+      "description": "Eco-friendly shopping bags made from 100% biodegradable materials. These bags decompose naturally within 180 days, leaving no harmful residues.",
+      "features": {
+        "features": [
+          "100% biodegradable",
+          "Decomposes in 180 days",
+          "High tensile strength",
+          "Water-resistant",
+          "Reusable",
+          "Food-safe material"
+        ]
+      },
+      "specifications": {
+        "material": "PLA + PBAT blend",
+        "thickness": "25 microns",
+        "dimensions": "40cm x 30cm x 12cm",
+        "load_capacity": "5kg"
+      },
+      "price": "₹250 per pack of 50",
+      "image_url": "/images/shop/biodegradable-shopping-bags.jpg",
+      "is_active": true,
+      "created_at": "2025-05-15T16:26:37.7448+00:00",
+      "updated_at": "2025-05-15T16:26:37.7448+00:00",
+      "amazon_url": null,
+      "amazon_enabled": false,
+      "inquiry_enabled": true,
+      "stock_quantity": 0,
+      "low_stock_threshold": 10,
+      "track_inventory": true
+    },
+    {
+      "id": "b550d033-19cd-4e87-905c-ed35fcb7b031",
+      "name": "Compostable Garbage Bags",
+      "code": "CGB-002",
+      "category": "Bags",
+      "description": "Heavy-duty garbage bags that are fully compostable. Ideal for kitchen waste and garden debris. Certified compostable according to international standards.",
+      "features": {
+        "features": [
+          "Fully compostable",
+          "Leak-proof design",
+          "Tear-resistant",
+          "Odor control",
+          "Fits standard bins",
+          "Plant-based materials"
+        ]
+      },
+      "specifications": {
+        "capacity": "15 liters",
+        "material": "Corn starch blend",
+        "thickness": "35 microns",
+        "dimensions": "60cm x 70cm",
+        "certifications": [
+          "ISO 17088",
+          "EN 13432"
+        ]
+      },
+      "price": "₹350 per pack of 30",
+      "image_url": "/images/shop/garbage-bags.jpg",
+      "is_active": true,
+      "created_at": "2025-05-15T16:26:37.7448+00:00",
+      "updated_at": "2025-05-15T16:26:37.7448+00:00",
+      "amazon_url": null,
+      "amazon_enabled": false,
+      "inquiry_enabled": true,
+      "stock_quantity": 0,
+      "low_stock_threshold": 10,
+      "track_inventory": true
+    },
+    {
+      "id": "aa3b172f-5923-40ab-8425-3fc67ae50395",
+      "name": "Biodegradable Food Containers",
+      "code": "BFC-003",
+      "category": "Food Packaging",
+      "description": "Microwave-safe food containers made from plant fibers. Perfect for takeaway restaurants and food delivery services looking to reduce their environmental impact.",
+      "features": {
+        "features": [
+          "Microwave safe",
+          "Freezer safe",
+          "Oil and water resistant",
+          "No plastic or wax lining",
+          "Sturdy construction",
+          "Naturally biodegradable"
+        ]
+      },
+      "specifications": {
+        "capacity": "750ml",
+        "material": "Sugarcane bagasse",
+        "dimensions": "15cm x 15cm x 6cm",
+        "certifications": [
+          "FDA approved",
+          "ASTM D6400"
+        ],
+        "temperature_range": "-20°C to 120°C"
+      },
+      "price": "₹1200 per pack of 100",
+      "image_url": "/earth-friendly-takeout.png",
+      "is_active": true,
+      "created_at": "2025-05-15T16:26:37.7448+00:00",
+      "updated_at": "2025-05-15T16:26:37.7448+00:00",
+      "amazon_url": null,
+      "amazon_enabled": false,
+      "inquiry_enabled": true,
+      "stock_quantity": 0,
+      "low_stock_threshold": 10,
+      "track_inventory": true
+    },
+    {
+      "id": "ec7d7cf7-412d-4659-aeee-f212fdaa2d6e",
+      "name": "Compostable Cutlery Set",
+      "code": "CCS-004",
+      "category": "Food Packaging",
+      "description": "Complete set of compostable cutlery including forks, spoons, and knives. Made from renewable resources and designed to break down completely in composting conditions.",
+      "features": {
+        "features": [
+          "Heat resistant",
+          "Sturdy design",
+          "Won't splinter or break during use",
+          "Naturally biodegradable",
+          "Renewable materials",
+          "Plastic-free"
+        ]
+      },
+      "specifications": {
+        "length": "16cm",
+        "material": "CPLA (Crystallized Polylactic Acid)",
+        "certifications": [
+          "EN 13432",
+          "BPI certified"
+        ],
+        "decomposition_time": "180 days in industrial composting"
+      },
+      "price": "₹800 per pack of 200 (mixed)",
+      "image_url": "/eco-friendly-packaging.png",
+      "is_active": true,
+      "created_at": "2025-05-15T16:26:37.7448+00:00",
+      "updated_at": "2025-05-15T16:26:37.7448+00:00",
+      "amazon_url": null,
+      "amazon_enabled": false,
+      "inquiry_enabled": true,
+      "stock_quantity": 0,
+      "low_stock_threshold": 10,
+      "track_inventory": true
+    },
+    {
+      "id": "cdc526df-e3ff-4c53-aeed-040d659a0a85",
+      "name": "Biodegradable Packaging Film",
+      "code": "BPF-005",
+      "category": "Packaging",
+      "description": "Clear biodegradable film for packaging applications. Provides excellent barrier properties while being fully biodegradable and compostable.",
+      "features": {
+        "features": [
+          "Transparent",
+          "Flexible",
+          "Puncture resistant",
+          "Good barrier properties",
+          "Heat sealable",
+          "Printable"
+        ]
+      },
+      "specifications": {
+        "width": "Available in 30cm to 150cm",
+        "material": "PLA/PBAT blend",
+        "thickness": "15-50 microns",
+        "oxygen_transmission_rate": "500-600 cc/m²/day",
+        "water_vapor_transmission_rate": "110-130 g/m²/day"
+      },
+      "price": "₹450 per kg",
+      "image_url": "/clear-biodegradable-pellets.png",
+      "is_active": true,
+      "created_at": "2025-05-15T16:26:37.7448+00:00",
+      "updated_at": "2025-05-15T16:26:37.7448+00:00",
+      "amazon_url": null,
+      "amazon_enabled": false,
+      "inquiry_enabled": true,
+      "stock_quantity": 0,
+      "low_stock_threshold": 10,
+      "track_inventory": true
+    },
+    {
+      "id": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+      "name": "Eco-Friendly Biodegradable Carry Bag",
+      "code": "ECO-BAG-001",
+      "category": "Carry Bags",
+      "description": "A durable and stylish carry bag made from 100% biodegradable corn starch. Perfect for groceries, shopping, and everyday use. Decomposes completely within 180 days in a commercial compost environment.",
+      "features": {
+        "features": [
+          "100% Biodegradable",
+          "Compostable (CPCB Certified)",
+          "Strong and Durable (10kg capacity)",
+          "Water Resistant",
+          "Printed with non-toxic inks"
+        ]
+      },
+      "specifications": {
+        "Size": "16 x 20 inches",
+        "Color": "Off-white",
+        "Material": "Corn Starch PLA",
+        "Thickness": "60 microns"
+      },
+      "price": "15.50",
+      "image_url": "https://images.unsplash.com/photo-1593113646773-69316952a56a?q=80&w=800&auto=format&fit=crop",
+      "is_active": true,
+      "created_at": "2025-06-19T02:57:27.347948+00:00",
+      "updated_at": "2025-06-19T02:57:27.347948+00:00",
+      "amazon_url": null,
+      "amazon_enabled": false,
+      "inquiry_enabled": true,
+      "stock_quantity": 0,
+      "low_stock_threshold": 10,
+      "track_inventory": true
+    },
+    {
+      "id": "b2c3d4e5-f6a7-8901-2345-67890abcdef0",
+      "name": "Compostable Food Waste Liners (Medium)",
+      "code": "FOOD-LINER-M-002",
+      "category": "Food Packaging",
+      "description": "Medium-sized compostable liners for kitchen food waste bins. These liners are breathable, reducing odors, and are fully certified to break down with your food scraps in compost facilities.",
+      "features": {
+        "features": [
+          "Certified Compostable",
+          "Breathable to reduce odor",
+          "Leak-proof star-sealed base",
+          "Fits most medium kitchen caddies"
+        ]
+      },
+      "specifications": {
+        "Capacity": "10 Liters",
+        "Material": "Corn Starch & PBAT Blend",
+        "Quantity": "50 bags per roll",
+        "Dimensions": "18 x 18 inches"
+      },
+      "price": "250.00",
+      "image_url": "https://images.unsplash.com/photo-1615937691194-1851494539b9?q=80&w=800&auto=format&fit=crop",
+      "is_active": true,
+      "created_at": "2025-06-19T02:57:27.347948+00:00",
+      "updated_at": "2025-06-19T02:57:27.347948+00:00",
+      "amazon_url": null,
+      "amazon_enabled": false,
+      "inquiry_enabled": true,
+      "stock_quantity": 0,
+      "low_stock_threshold": 10,
+      "track_inventory": true
+    },
+    {
+      "id": "c3d4e5f6-a7b8-9012-3456-7890abcdef01",
+      "name": "Biodegradable Agricultural Mulch Film",
+      "code": "AGRI-FILM-003",
+      "category": "Agricultural Products",
+      "description": "An innovative mulch film that helps control weeds and conserve water, then biodegrades directly into the soil at the end of the season, saving farmers time and labor costs associated with removal and disposal.",
+      "features": {
+        "features": [
+          "100% Soil Biodegradable",
+          "Improves soil temperature",
+          "Reduces water evaporation",
+          "No removal or disposal required"
+        ]
+      },
+      "specifications": {
+        "Width": "1.2 meters",
+        "Length": "1000 meters per roll",
+        "Material": "Biodegradable Polymer Blend",
+        "Thickness": "15 microns"
+      },
+      "price": "4500.00",
+      "image_url": "https://images.unsplash.com/photo-1586799089834-51374115c54f?q=80&w=800&auto=format&fit=crop",
+      "is_active": true,
+      "created_at": "2025-06-19T02:57:27.347948+00:00",
+      "updated_at": "2025-06-19T02:57:27.347948+00:00",
+      "amazon_url": null,
+      "amazon_enabled": false,
+      "inquiry_enabled": true,
+      "stock_quantity": 0,
+      "low_stock_threshold": 10,
+      "track_inventory": true
+    },
+    {
+      "id": "8a7d385c-95b5-4963-9f60-a728d711def8",
+      "name": "vikram ",
+      "code": "gf",
+      "category": "packaging",
+      "description": "r5thdgfbv",
+      "features": {
+        "features": [
+          "defrgthy"
+        ]
+      },
+      "specifications": {
+        "rthyj": "rthn"
+      },
+      "price": "55",
+      "image_url": "https://5.imimg.com/data5/ANDROID/Default/2024/4/414506925/XW/GC/JL/1940978/product-250x250.jpg",
+      "is_active": true,
+      "created_at": "2025-06-19T03:32:28.907507+00:00",
+      "updated_at": "2025-06-19T03:32:29.951538+00:00",
+      "amazon_url": null,
+      "amazon_enabled": false,
+      "inquiry_enabled": true,
+      "stock_quantity": 0,
+      "low_stock_threshold": 10,
+      "track_inventory": true
+    },
+    {
+      "id": "f9001979-6abd-4de5-a4e2-f40febe97c52",
+      "name": "eyr",
+      "code": "5ryetu",
+      "category": "granules",
+      "description": "eryj",
+      "features": [
+        "etuy"
+      ],
+      "specifications": [],
+      "price": "rtu",
+      "image_url": "https://images.unsplash.com/photo-1615937691194-1851494539b9?q=80&w=800&auto=format&fit=crop",
+      "is_active": true,
+      "created_at": "2025-05-15T17:10:47.069442+00:00",
+      "updated_at": "2025-08-11T09:36:24.968651+00:00",
+      "amazon_url": null,
+      "amazon_enabled": false,
+      "inquiry_enabled": true,
+      "stock_quantity": 0,
+      "low_stock_threshold": 10,
+      "track_inventory": true
+    },
+    {
+      "id": "3364b188-888f-497d-b0d4-2ee617b801f7",
+      "name": "naveen",
+      "code": "ekenl45",
+      "category": "granules",
+      "description": "wefqfe",
+      "features": null,
+      "specifications": {
+        "specification": "25"
+      },
+      "price": "45",
+      "image_url": "https://images.unsplash.com/photo-1615937691194-1851494539b9?q=80&w=800&auto=format&fit=crop",
+      "is_active": true,
+      "created_at": "2025-06-18T17:20:30.323553+00:00",
+      "updated_at": "2025-08-11T09:36:24.968651+00:00",
+      "amazon_url": null,
+      "amazon_enabled": false,
+      "inquiry_enabled": true,
+      "stock_quantity": 0,
+      "low_stock_threshold": 10,
+      "track_inventory": true
+    },
+    {
+      "id": "56116cb5-8a21-43c1-9baa-239f92534313",
+      "name": "naveen",
+      "code": "ekenl45",
+      "category": "granules",
+      "description": "kjlyt",
+      "features": {
+        "features": [
+          "jknuytr"
+        ]
+      },
+      "specifications": {
+        "jbk l": ""
+      },
+      "price": "45",
+      "image_url": "https://images.unsplash.com/photo-1615937691194-1851494539b9?q=80&w=800&auto=format&fit=crop",
+      "is_active": true,
+      "created_at": "2025-06-19T02:12:29.177963+00:00",
+      "updated_at": "2025-08-11T09:36:24.968651+00:00",
+      "amazon_url": null,
+      "amazon_enabled": false,
+      "inquiry_enabled": true,
+      "stock_quantity": 0,
+      "low_stock_threshold": 10,
+      "track_inventory": true
+    },
+    {
+      "id": "97033bb1-9478-4f12-a981-e4a7182cdfff",
+      "name": "vikram ",
+      "code": "kljhgf",
+      "category": "granules",
+      "description": "iutryetw",
+      "features": {
+        "features": [
+          "kjhgfh",
+          "kjlhgfd"
+        ]
+      },
+      "specifications": {
+        "gyv": "y"
+      },
+      "price": "566",
+      "image_url": "https://images.unsplash.com/photo-1615937691194-1851494539b9?q=80&w=800&auto=format&fit=crop",
+      "is_active": true,
+      "created_at": "2025-06-19T02:13:18.456299+00:00",
+      "updated_at": "2025-08-11T09:36:24.968651+00:00",
+      "amazon_url": null,
+      "amazon_enabled": false,
+      "inquiry_enabled": true,
+      "stock_quantity": 0,
+      "low_stock_threshold": 10,
+      "track_inventory": true
+    },
+    {
+      "id": "bd647f0d-bc73-4d03-a867-be49c9263d86",
+      "name": "demo product ",
+      "code": "aicmt-55",
+      "category": "films",
+      "description": "some ecription ",
+      "features": null,
+      "specifications": null,
+      "price": "566",
+      "image_url": "https://images.unsplash.com/photo-1492496913980-501348b61469?q=80&w=800&auto=format&fit=crop",
+      "is_active": true,
+      "created_at": "2025-06-19T03:17:24.277644+00:00",
+      "updated_at": "2025-08-11T09:36:24.968651+00:00",
+      "amazon_url": null,
+      "amazon_enabled": false,
+      "inquiry_enabled": true,
+      "stock_quantity": 0,
+      "low_stock_threshold": 10,
+      "track_inventory": true
+    },
+    {
+      "id": "a55f300f-693c-4db2-904b-73a88ad5770a",
+      "name": "users",
+      "code": "dfs",
+      "category": "granules",
+      "description": "efd",
+      "features": {
+        "features": [
+          "er"
+        ]
+      },
+      "specifications": {
+        "ert": ""
+      },
+      "price": "78",
+      "image_url": null,
+      "is_active": true,
+      "created_at": "2025-06-19T03:27:57.41497+00:00",
+      "updated_at": "2025-08-11T09:36:24.968651+00:00",
+      "amazon_url": null,
+      "amazon_enabled": false,
+      "inquiry_enabled": true,
+      "stock_quantity": 0,
+      "low_stock_threshold": 10,
+      "track_inventory": true
+    },
+    {
+      "id": "5a79f63b-091e-4a02-9cd8-2688eb4a5bc9",
+      "name": "0807",
+      "code": "dfs",
+      "category": "bags",
+      "description": "dsfdcx",
+      "features": {
+        "features": [
+          "dv\r",
+          "advs"
+        ]
+      },
+      "specifications": null,
+      "price": "45",
+      "image_url": null,
+      "is_active": true,
+      "created_at": "2025-07-08T14:28:12.706547+00:00",
+      "updated_at": "2025-08-11T09:36:24.968651+00:00",
+      "amazon_url": null,
+      "amazon_enabled": false,
+      "inquiry_enabled": true,
+      "stock_quantity": 0,
+      "low_stock_threshold": 10,
+      "track_inventory": true
+    },
+    {
+      "id": "e5742715-d5b1-4528-a568-92377041884a",
+      "name": "Biodegradable Shopping Bags",
+      "code": "BSB-001",
+      "category": "bags",
+      "description": "Eco-friendly shopping bags that decompose naturally.",
+      "features": [
+        "100% biodegradable",
+        "Strong and durable",
+        "Custom printing available",
+        "Various sizes"
+      ],
+      "specifications": {
+        "sizes": [
+          "small",
+          "medium",
+          "large"
+        ],
+        "material": "PLA and PBAT blend",
+        "thickness": "25 microns",
+        "load_capacity": "5kg"
+      },
+      "price": "₹12.99",
+      "image_url": "/images/shop/biodegradable-bags.png",
+      "is_active": true,
+      "created_at": "2025-08-11T09:32:13.846837+00:00",
+      "updated_at": "2025-08-11T09:32:13.846837+00:00",
+      "amazon_url": null,
+      "amazon_enabled": false,
+      "inquiry_enabled": true,
+      "stock_quantity": 0,
+      "low_stock_threshold": 10,
+      "track_inventory": true
+    },
+    {
+      "id": "18b98fea-fbdd-42ac-8ef8-1bb485f4241e",
+      "name": "Compostable Food Containers",
+      "code": "CFC-002",
+      "category": "containers",
+      "description": "Food-safe containers perfect for takeaway and food delivery.",
+      "features": [
+        "Microwave safe",
+        "Oil and water resistant",
+        "No plastic or wax lining",
+        "Suitable for hot and cold foods"
+      ],
+      "specifications": {
+        "sizes": [
+          "8oz",
+          "16oz",
+          "32oz"
+        ],
+        "material": "Bagasse",
+        "certifications": [
+          "ASTM D6400",
+          "EN13432"
+        ],
+        "temperature_range": "-20°C to 120°C"
+      },
+      "price": "₹15.99",
+      "image_url": "/images/shop/compostable-containers.png",
+      "is_active": true,
+      "created_at": "2025-08-11T09:32:13.846837+00:00",
+      "updated_at": "2025-08-11T09:32:13.846837+00:00",
+      "amazon_url": null,
+      "amazon_enabled": false,
+      "inquiry_enabled": true,
+      "stock_quantity": 0,
+      "low_stock_threshold": 10,
+      "track_inventory": true
+    },
+    {
+      "id": "622ce33d-64e8-4c82-a45b-6d95286dc144",
+      "name": "Biodegradable Cutlery Set",
+      "code": "BCS-003",
+      "category": "cutlery",
+      "description": "Durable cutlery that breaks down naturally after disposal.",
+      "features": [
+        "Heat resistant",
+        "Sturdy design",
+        "No plastic additives",
+        "Compostable in industrial facilities"
+      ],
+      "specifications": {
+        "color": "natural",
+        "includes": [
+          "forks",
+          "knives",
+          "spoons"
+        ],
+        "material": "PLA",
+        "items_per_set": 24
+      },
+      "price": "₹8.99",
+      "image_url": "/images/shop/biodegradable-cutlery.png",
+      "is_active": true,
+      "created_at": "2025-08-11T09:32:13.846837+00:00",
+      "updated_at": "2025-08-11T09:32:13.846837+00:00",
+      "amazon_url": null,
+      "amazon_enabled": false,
+      "inquiry_enabled": true,
+      "stock_quantity": 0,
+      "low_stock_threshold": 10,
+      "track_inventory": true
+    },
+    {
+      "id": "f1b420d6-69d5-439c-a28f-e21cd951fda8",
+      "name": "Eco-Friendly Packaging Film",
+      "code": "EPF-004",
+      "category": "packaging",
+      "description": "Transparent film for packaging that biodegrades in natural environments.",
+      "features": [
+        "Crystal clear",
+        "Excellent barrier properties",
+        "Printable surface",
+        "Biodegrades in soil"
+      ],
+      "specifications": {
+        "width": "up to 1.2m",
+        "material": "PBAT and PLA blend",
+        "thickness": "15-30 microns",
+        "transparency": "92%"
+      },
+      "price": "₹29.99",
+      "image_url": "/images/shop/eco-packaging.png",
+      "is_active": true,
+      "created_at": "2025-08-11T09:32:13.846837+00:00",
+      "updated_at": "2025-08-11T09:32:13.846837+00:00",
+      "amazon_url": null,
+      "amazon_enabled": false,
+      "inquiry_enabled": true,
+      "stock_quantity": 0,
+      "low_stock_threshold": 10,
+      "track_inventory": true
+    },
+    {
+      "id": "136729fe-1241-4fb0-99a3-b613f637f91b",
+      "name": "ridhi",
+      "code": "rf",
+      "category": "packaging",
+      "description": "dczx",
+      "features": {
+        "features": [
+          "thgf\r",
+          "shwt"
+        ]
+      },
+      "specifications": {
+        "rht": "rth",
+        "rth": "trh"
+      },
+      "price": "522",
+      "image_url": "https://ylqpagsrjmoelausmtku.supabase.co/storage/v1/object/public/product-images/products/136729fe-1241-4fb0-99a3-b613f637f91b/1754912367670-24event%20cancalled%20check.jpg",
+      "is_active": true,
+      "created_at": "2025-08-11T11:39:27.144794+00:00",
+      "updated_at": "2025-08-11T11:39:30.384857+00:00",
+      "amazon_url": null,
+      "amazon_enabled": false,
+      "inquiry_enabled": true,
+      "stock_quantity": 0,
+      "low_stock_threshold": 10,
+      "track_inventory": true
+    },
+    {
+      "id": "110da54d-497c-455b-bd6a-e511d859c600",
+      "name": "white cover ",
+      "code": "ghjj",
+      "category": "granules",
+      "description": "jkoguygh",
+      "features": {
+        "features": [
+          "kjdg\r",
+          "m,kljfg"
+        ]
+      },
+      "specifications": {
+        "kluvycfg": "mklnjhgf",
+        ";lkjhgfxd": "m,kjbhvgcf"
+      },
+      "price": "123",
+      "image_url": "https://ylqpagsrjmoelausmtku.supabase.co/storage/v1/object/public/product-images/products/110da54d-497c-455b-bd6a-e511d859c600/1755410869360-Pouches%20Milk%20White%20-%205%20X%208%20Inches%20(Private%20Labelling%202).JPG",
+      "is_active": true,
+      "created_at": "2025-08-17T06:07:48.895199+00:00",
+      "updated_at": "2025-08-17T06:07:53.231824+00:00",
+      "amazon_url": null,
+      "amazon_enabled": false,
+      "inquiry_enabled": true,
+      "stock_quantity": 0,
+      "low_stock_threshold": 10,
+      "track_inventory": true
+    },
+    {
+      "id": "19e6af38-f45c-439e-8df2-4f369dfe3c53",
+      "name": "17:40",
+      "code": "trvfdc",
+      "category": "granules",
+      "description": "trefds",
+      "features": {
+        "features": [
+          "jkuytre\r",
+          "l;kj"
+        ]
+      },
+      "specifications": {
+        "oiu": "2"
+      },
+      "price": "22",
+      "image_url": "https://ylqpagsrjmoelausmtku.supabase.co/storage/v1/object/public/product-images/products/19e6af38-f45c-439e-8df2-4f369dfe3c53/1756469950549-WhatsApp%20Image%202025-07-30%20at%2016.01.32_a9ccc143.jpg",
+      "is_active": true,
+      "created_at": "2025-08-29T12:19:09.743709+00:00",
+      "updated_at": "2025-08-29T12:19:11.634358+00:00",
+      "amazon_url": null,
+      "amazon_enabled": false,
+      "inquiry_enabled": true,
+      "stock_quantity": 0,
+      "low_stock_threshold": 10,
+      "track_inventory": true
+    },
+    {
+      "id": "8b6bc916-6657-46ba-8299-bbcc7ec5c364",
+      "name": "Raj",
+      "code": "jgfh",
+      "category": "granules",
+      "description": "6utyrt",
+      "features": null,
+      "specifications": null,
+      "price": "54.98",
+      "image_url": "https://ylqpagsrjmoelausmtku.supabase.co/storage/v1/object/public/product-images/products/8b6bc916-6657-46ba-8299-bbcc7ec5c364/1756536349880-WIN_20250823_09_49_58_Pro.jpg",
+      "is_active": true,
+      "created_at": "2025-08-30T06:45:49.27457+00:00",
+      "updated_at": "2025-08-30T06:45:51.916158+00:00",
+      "amazon_url": null,
+      "amazon_enabled": true,
+      "inquiry_enabled": true,
+      "stock_quantity": 0,
+      "low_stock_threshold": 10,
+      "track_inventory": true
+    }
+  ]
+}

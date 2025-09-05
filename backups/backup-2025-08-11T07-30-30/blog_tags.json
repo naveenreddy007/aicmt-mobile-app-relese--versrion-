@@ -1,0 +1,13 @@
+{
+  "metadata": {
+    "table": "blog_tags",
+    "timestamp": "2025-08-11T07-30-30",
+    "recordCount": 0,
+    "backupDate": "2025-08-11T07:30:36.981Z",
+    "schema": {
+      "table_name": "blog_tags",
+      "columns": []
+    }
+  },
+  "data": []
+}

@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "table": "seo_metadata",
+    "timestamp": "2025-09-05T21-35-31",
+    "recordCount": 4,
+    "backupDate": "2025-09-05T21:35:51.148Z",
+    "schema": {
+      "table_name": "seo_metadata",
+      "columns": []
+    }
+  },
+  "data": [
+    {
+      "id": "895ffbbb-1258-4267-bd36-88fb5b663950",
+      "page_path": "/",
+      "title": "AICMT International - Biodegradable Solutions for a Sustainable Future",
+      "description": "AICMT International provides innovative biodegradable and compostable plastic alternatives for businesses committed to sustainability.",
+      "keywords": "{\"biodegradable plastics\",\"compostable packaging\",\"sustainable solutions\",\"eco-friendly products\"}",
+      "og_title": null,
+      "og_description": null,
+      "og_image": "/images/banners/home-banner.jpg",
+      "canonical_url": null,
+      "robots": "index, follow",
+      "structured_data": null,
+      "created_at": "2025-08-11T09:32:13.846837+00:00",
+      "updated_at": "2025-08-11T09:32:13.846837+00:00"
+    },
+    {
+      "id": "928df4ff-2aa7-41b7-868f-aed01988b20a",
+      "page_path": "/products",
+      "title": "Sustainable Products - AICMT International",
+      "description": "Explore our range of biodegradable and compostable products designed for businesses transitioning to sustainable packaging solutions.",
+      "keywords": "{\"biodegradable products\",\"compostable packaging\",\"eco-friendly alternatives\",\"sustainable business\"}",
+      "og_title": null,
+      "og_description": null,
+      "og_image": "/images/banners/products-banner.jpg",
+      "canonical_url": null,
+      "robots": "index, follow",
+      "structured_data": null,
+      "created_at": "2025-08-11T09:32:13.846837+00:00",
+      "updated_at": "2025-08-11T09:32:13.846837+00:00"
+    },
+    {
+      "id": "e98ed492-9a3c-422a-a31d-c816c9192b68",
+      "page_path": "/about",
+      "title": "About AICMT International - Our Sustainability Journey",
+      "description": "Learn about AICMT International's mission to provide innovative biodegradable solutions and our commitment to environmental sustainability.",
+      "keywords": "{\"about AICMT\",\"sustainability mission\",\"biodegradable innovation\",\"eco-friendly company\"}",
+      "og_title": null,
+      "og_description": null,
+      "og_image": "/images/banners/about-banner.jpg",
+      "canonical_url": null,
+      "robots": "index, follow",
+      "structured_data": null,
+      "created_at": "2025-08-11T09:32:13.846837+00:00",
+      "updated_at": "2025-08-11T09:32:13.846837+00:00"
+    },
+    {
+      "id": "0c44bc87-330c-4240-8c07-e05fb382aa30",
+      "page_path": "/blog",
+      "title": "Sustainability Blog - AICMT International",
+      "description": "Stay informed about the latest trends, innovations, and insights in sustainable packaging and environmental responsibility.",
+      "keywords": "{\"sustainability blog\",\"biodegradable news\",\"environmental insights\",\"packaging innovation\"}",
+      "og_title": null,
+      "og_description": null,
+      "og_image": "/images/banners/blog-banner.jpg",
+      "canonical_url": null,
+      "robots": "index, follow",
+      "structured_data": null,
+      "created_at": "2025-08-11T09:32:13.846837+00:00",
+      "updated_at": "2025-08-11T09:32:13.846837+00:00"
+    }
+  ]
+}

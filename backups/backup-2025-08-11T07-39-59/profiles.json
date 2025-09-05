@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "table": "profiles",
+    "timestamp": "2025-08-11T07-39-59",
+    "recordCount": 1,
+    "backupDate": "2025-08-11T07:40:11.628Z",
+    "schema": {
+      "table_name": "profiles",
+      "columns": []
+    }
+  },
+  "data": [
+    {
+      "id": "f6443e86-72f6-408c-82d7-e187a2d59cc6",
+      "first_name": "Admin",
+      "last_name": "User",
+      "avatar_url": null,
+      "company": null,
+      "position": null,
+      "phone": null,
+      "bio": null,
+      "role": "admin",
+      "preferences": {},
+      "created_at": "2025-05-15T16:05:44.387019+00:00",
+      "updated_at": "2025-05-15T16:05:44.387019+00:00"
+    }
+  ]
+}

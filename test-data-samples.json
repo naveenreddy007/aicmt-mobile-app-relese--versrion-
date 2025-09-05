@@ -1,0 +1,231 @@
+{
+  "journeyMilestones": [
+    {
+      "title": "Company Foundation",
+      "description": "AICMT was founded with a vision to revolutionize sustainable manufacturing through innovative technology solutions.",
+      "year": 2020,
+      "image_url": "",
+      "display_order": 1
+    },
+    {
+      "title": "First Major Partnership",
+      "description": "Secured our first major partnership with a leading automotive manufacturer to implement sustainable production processes.",
+      "year": 2021,
+      "image_url": "",
+      "display_order": 2
+    },
+    {
+      "title": "Technology Breakthrough",
+      "description": "Developed breakthrough AI-powered optimization algorithms that reduce manufacturing waste by 40%.",
+      "year": 2022,
+      "image_url": "",
+      "display_order": 3
+    }
+  ],
+  "teamMembers": [
+    {
+      "name": "Dr. Sarah Johnson",
+      "role": "Chief Technology Officer",
+      "description": "Leading expert in sustainable manufacturing with over 15 years of experience in AI and automation systems.",
+      "image_url": "",
+      "display_order": 1
+    },
+    {
+      "name": "Michael Chen",
+      "role": "Senior Manufacturing Engineer",
+      "description": "Specializes in process optimization and lean manufacturing principles with a focus on environmental sustainability.",
+      "image_url": "",
+      "display_order": 2
+    },
+    {
+      "name": "Emily Rodriguez",
+      "role": "Sustainability Director",
+      "description": "Environmental scientist dedicated to developing eco-friendly manufacturing solutions and reducing industrial carbon footprint.",
+      "image_url": "",
+      "display_order": 3
+    }
+  ],
+  "achievements": [
+    {
+      "title": "ISO 14001 Certification",
+      "description": "Successfully achieved ISO 14001 Environmental Management System certification, demonstrating our commitment to environmental responsibility.",
+      "year": 2023,
+      "image_url": "",
+      "display_order": 1
+    },
+    {
+      "title": "Industry Innovation Award",
+      "description": "Received the Manufacturing Innovation Award for our AI-powered waste reduction technology from the National Manufacturing Association.",
+      "year": 2023,
+      "image_url": "",
+      "display_order": 2
+    },
+    {
+      "title": "Carbon Neutral Certification",
+      "description": "Achieved carbon neutral status across all manufacturing operations through innovative process improvements and renewable energy adoption.",
+      "year": 2024,
+      "image_url": "",
+      "display_order": 3
+    }
+  ],
+  "impactStories": [
+    {
+      "title": "Waste Reduction Initiative",
+      "description": "Implemented comprehensive waste reduction program across all production lines using AI-powered optimization algorithms.",
+      "impact_metrics": "50% reduction in manufacturing waste, 30% cost savings, 25% reduction in raw material usage",
+      "year": 2023,
+      "image_url": "",
+      "display_order": 1
+    },
+    {
+      "title": "Energy Efficiency Program",
+      "description": "Deployed smart energy management systems to optimize power consumption and integrate renewable energy sources.",
+      "impact_metrics": "40% reduction in energy consumption, 60% renewable energy adoption, $2M annual savings",
+      "year": 2023,
+      "image_url": "",
+      "display_order": 2
+    },
+    {
+      "title": "Supply Chain Optimization",
+      "description": "Revolutionized supply chain management through AI-driven logistics optimization and sustainable sourcing practices.",
+      "impact_metrics": "35% reduction in transportation emissions, 20% faster delivery times, 15% cost reduction",
+      "year": 2024,
+      "image_url": "",
+      "display_order": 3
+    }
+  ],
+  "validationTestCases": {
+    "requiredFieldTests": {
+      "journeyMilestone": {
+        "emptyTitle": {
+          "title": "",
+          "description": "Valid description",
+          "year": 2023,
+          "expectedError": "Title is required"
+        },
+        "emptyDescription": {
+          "title": "Valid Title",
+          "description": "",
+          "year": 2023,
+          "expectedError": "Description is required"
+        },
+        "emptyYear": {
+          "title": "Valid Title",
+          "description": "Valid description",
+          "year": "",
+          "expectedError": "Year is required"
+        }
+      },
+      "teamMember": {
+        "emptyName": {
+          "name": "",
+          "role": "Valid Role",
+          "description": "Valid description",
+          "expectedError": "Name is required"
+        },
+        "emptyRole": {
+          "name": "Valid Name",
+          "role": "",
+          "description": "Valid description",
+          "expectedError": "Role is required"
+        },
+        "emptyDescription": {
+          "name": "Valid Name",
+          "role": "Valid Role",
+          "description": "",
+          "expectedError": "Description is required"
+        }
+      },
+      "achievement": {
+        "emptyTitle": {
+          "title": "",
+          "description": "Valid description",
+          "year": 2023,
+          "expectedError": "Title is required"
+        },
+        "emptyDescription": {
+          "title": "Valid Title",
+          "description": "",
+          "year": 2023,
+          "expectedError": "Description is required"
+        },
+        "emptyYear": {
+          "title": "Valid Title",
+          "description": "Valid description",
+          "year": "",
+          "expectedError": "Year is required"
+        }
+      },
+      "impactStory": {
+        "emptyTitle": {
+          "title": "",
+          "description": "Valid description",
+          "impact_metrics": "Valid metrics",
+          "year": 2023,
+          "expectedError": "Title is required"
+        },
+        "emptyDescription": {
+          "title": "Valid Title",
+          "description": "",
+          "impact_metrics": "Valid metrics",
+          "year": 2023,
+          "expectedError": "Description is required"
+        },
+        "emptyImpactMetrics": {
+          "title": "Valid Title",
+          "description": "Valid description",
+          "impact_metrics": "",
+          "year": 2023,
+          "expectedError": "Impact metrics is required"
+        },
+        "emptyYear": {
+          "title": "Valid Title",
+          "description": "Valid description",
+          "impact_metrics": "Valid metrics",
+          "year": "",
+          "expectedError": "Year is required"
+        }
+      }
+    },
+    "invalidDataTests": {
+      "invalidYear": {
+        "value": "abc",
+        "expectedError": "Year must be a valid number"
+      },
+      "invalidYearRange": {
+        "value": 1800,
+        "expectedError": "Year must be between 1900 and current year"
+      },
+      "invalidImageUrl": {
+        "value": "not-a-url",
+        "expectedError": "Please enter a valid URL"
+      },
+      "invalidDisplayOrder": {
+        "value": "abc",
+        "expectedError": "Display order must be a valid number"
+      }
+    },
+    "edgeCases": {
+      "longDescription": {
+        "value": "A".repeat(2000),
+        "expectedBehavior": "Should handle long text gracefully"
+      },
+      "specialCharacters": {
+        "value": "Title with special chars: !@#$%^&*()_+-=[]{}|;':,.<>?",
+        "expectedBehavior": "Should accept special characters"
+      },
+      "unicodeCharacters": {
+        "value": "Title with unicode: 中文 العربية русский 🚀",
+        "expectedBehavior": "Should handle unicode characters"
+      },
+      "sqlInjection": {
+        "value": "'; DROP TABLE stories; --",
+        "expectedBehavior": "Should be safely escaped and stored as text"
+      },
+      "xssAttempt": {
+        "value": "<script>alert('XSS')</script>",
+        "expectedBehavior": "Should be safely escaped and not execute"
+      }
+    }
+  }
+}
